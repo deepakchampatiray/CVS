@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.692dec8f-4c6d-4ffc-84ea-4528226e7322" name="Actionable Icon Test">
+        <lastModified>1487485711747</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <processId>1.692dec8f-4c6d-4ffc-84ea-4528226e7322</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.408a44bd-7099-48c1-a3a5-4f7345b8d192</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>10</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef>ae31606f-3de3-4bd3-873d-45833be340bc/24.da7e4d23-78cb-4483-98ed-b9c238308a03</participantRef>
+        <exposedType>2</exposedType>
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength isNull="true" />
+        <mobileReady>true</mobileReady>
+        <sboSyncEnabled>true</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>false</isSecured>
+        <description isNull="true" />
+        <guid>guid:96a322c735e714bc:-5facf830:15a526082fc:-770f</guid>
+        <versionId>1476e2cb-7ae0-4469-99f7-e12f16f2e778</versionId>
+        <dependencySummary isNull="true" />
+        <processVariable name="actionableBtnClass">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processVariableId>2056.ec47cc59-f5dd-4f76-89d5-47dd93cd6b20</processVariableId>
+            <description isNull="true" />
+            <processId>1.692dec8f-4c6d-4ffc-84ea-4528226e7322</processId>
+            <namespace>2</namespace>
+            <seq>1</seq>
+            <isArrayOf>false</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <guid>04517827-c67b-42fa-b6fc-0dee00817bb6</guid>
+            <versionId>a862a6f9-e8b2-47ec-a544-cb9626d7b380</versionId>
+        </processVariable>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.408a44bd-7099-48c1-a3a5-4f7345b8d192</processItemId>
+            <processId>1.692dec8f-4c6d-4ffc-84ea-4528226e7322</processId>
+            <name>CoachFlowWrapper</name>
+            <tWComponentName>CoachFlow</tWComponentName>
+            <tWComponentId>3032.2fe647ec-0cea-43bf-8ee1-0ccf91fc6437</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:96a322c735e714bc:-5facf830:15a526082fc:-770d</guid>
+            <versionId>037ad1b9-a085-40dd-80f3-d68097cf6080</versionId>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent />
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.48d4b800-5e82-4a66-8847-7690b9eead8e</processItemId>
+            <processId>1.692dec8f-4c6d-4ffc-84ea-4528226e7322</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.b0638286-e011-4473-95ff-5a2eab47ea59</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:96a322c735e714bc:-5facf830:15a526082fc:-770e</guid>
+            <versionId>e61f2422-5c03-409d-bc93-9fd1ce5b7902</versionId>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.b0638286-e011-4473-95ff-5a2eab47ea59</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>041bf5f5-0fd2-47a2-ac86-5bd68b10e161</guid>
+                <versionId>ed7693c3-2cd6-42cb-a4d3-a21b9eef0ac5</versionId>
+            </TWComponent>
+        </item>
+        <startingProcessItemId>2025.408a44bd-7099-48c1-a3a5-4f7345b8d192</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="rightCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <coachflow>
+            <ns16:definitions xmlns:ns16="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.ibm.com/bpm/Extensions" xmlns:ns3="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process" xmlns:ns4="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/wle" xmlns:ns5="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/case" xmlns:ns6="http://www.ibm.com/xmlns/bpmnx/20100524/v1/BusinessVocabulary" xmlns:ns7="http://www.omg.org/spec/DD/20100524/DI" xmlns:ns8="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns9="http://www.omg.org/spec/BPMN/20100524/BPMNDI" xmlns:ns10="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/team" xmlns:ns11="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/trackinggroup" xmlns:ns12="http://www.ibm.com/xmlns/prod/bpm/graph" xmlns:ns13="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/auth" xmlns:ns14="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/extservice" xmlns:ns15="http://www.ibm.com/xmlns/links" xmlns:ns17="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns18="http://www.ibm.com/xmlns/tagging" xmlns:ns19="http://www.ibm.com/bpm/uitheme" xmlns:ns20="http://www.ibm.com/bpm/coachview" id="68e3060f-0662-4220-85d2-744382b4407c" targetNamespace="" expressionLanguage="http://www.ibm.com/xmlns/prod/bpm/expression-lang/javascript">
+                <ns16:globalUserTask name="Actionable Icon Test" id="1.692dec8f-4c6d-4ffc-84ea-4528226e7322">
+                    <ns16:documentation />
+                    <ns16:extensionElements>
+                        <ns3:userTaskImplementation id="5ef39469-fc33-4f1f-b7c7-d3aaf83b155d">
+                            <ns16:startEvent name="Start" id="0e78ca93-89ba-4e47-8e1b-c1e15c7ee476">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="50" y="200" width="24" height="24" color="#F8F8F8" />
+                                </ns16:extensionElements>
+                                <ns16:outgoing>2027.689144fc-e130-42f7-b665-64364012264f</ns16:outgoing>
+                            </ns16:startEvent>
+                            <ns3:formTask name="Coach" id="2025.dce6f969-8959-46ef-9f25-f1c083de60e5">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="350" y="177" width="95" height="70" />
+                                </ns16:extensionElements>
+                                <ns16:incoming>2027.689144fc-e130-42f7-b665-64364012264f</ns16:incoming>
+                                <ns16:outgoing>2027.f020d3a5-79d9-4856-93ff-2332896b1b23</ns16:outgoing>
+                                <ns3:formDefinition>
+                                    <ns17:coachDefinition>
+                                        <ns17:layout>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>eeeb494d-1c12-4418-8264-3a7a873896df</ns17:id>
+                                                <ns17:layoutItemId>Text1</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>6ab0d44e-9710-439a-8daf-aa2545dfe0ce</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Text</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>0f75bc1b-4d88-4138-80ac-57c705be8f9b</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>4d1774a4-e49e-44ad-8d6f-63e45c927ae8</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.d109fc11-3729-396e-bf94-d748d1967596</ns17:viewUUID>
+                                                <ns17:binding>tw.local.actionableBtnClass</ns17:binding>
+                                            </ns17:layoutItem>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>96f0ad4f-5004-4b4a-8b4d-94dae6c4ede7</ns17:id>
+                                                <ns17:layoutItemId>Actionable_Icon1</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>dce71b4d-9ba5-4845-833a-81ea3289020d</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Actionable Icon</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>545c49e1-61fd-4c80-8eb3-3fa7e8fafc74</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>dd331119-e0a5-49da-81dd-2e35202122aa</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>f4635240-25f0-4097-87e2-040930d471c2</ns17:id>
+                                                    <ns17:optionName>iconColor</ns17:optionName>
+                                                    <ns17:value>"red"</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>e92433dd-14b5-4cbe-8a13-5763cb664ff5</ns17:id>
+                                                    <ns17:optionName>iconSize</ns17:optionName>
+                                                    <ns17:value>"large"</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>a8db714e-3ae8-46b9-87b3-428cbb141c41</ns17:id>
+                                                    <ns17:optionName>canFireBoundryEvent</ns17:optionName>
+                                                    <ns17:value>true</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>9da15595-0930-4e2f-8431-d31fdaca38a1</ns17:id>
+                                                    <ns17:optionName>previewClass</ns17:optionName>
+                                                    <ns17:value>"preview_class"</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</ns17:viewUUID>
+                                                <ns17:binding>tw.local.actionableBtnClass</ns17:binding>
+                                            </ns17:layoutItem>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef">
+                                                <ns17:id>0adb9601-73a7-4b12-a1e9-8dbd6bef1a41</ns17:id>
+                                                <ns17:layoutItemId>okButton</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>309bc1fa-e4de-4897-a334-03cb812a40a7</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>OK</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.7d87b78a-a67b-3084-ad5f-edf42439ef26</ns17:viewUUID>
+                                            </ns17:layoutItem>
+                                        </ns17:layout>
+                                    </ns17:coachDefinition>
+                                </ns3:formDefinition>
+                            </ns3:formTask>
+                            <ns16:endEvent name="End" id="ff2e2700-f46f-4112-bc5e-59f9cf1b61eb">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="700" y="200" width="24" height="24" color="#F8F8F8" />
+                                    <ns3:navigationInstructions>
+                                        <ns3:targetType>Default</ns3:targetType>
+                                    </ns3:navigationInstructions>
+                                </ns16:extensionElements>
+                                <ns16:incoming>2027.f020d3a5-79d9-4856-93ff-2332896b1b23</ns16:incoming>
+                            </ns16:endEvent>
+                            <ns16:sequenceFlow sourceRef="0e78ca93-89ba-4e47-8e1b-c1e15c7ee476" targetRef="2025.dce6f969-8959-46ef-9f25-f1c083de60e5" name="To Coach" id="2027.689144fc-e130-42f7-b665-64364012264f">
+                                <ns16:extensionElements>
+                                    <ns12:linkVisualInfo>
+                                        <ns12:sourcePortLocation>rightCenter</ns12:sourcePortLocation>
+                                        <ns12:targetPortLocation>leftCenter</ns12:targetPortLocation>
+                                        <ns12:showLabel>false</ns12:showLabel>
+                                        <ns12:showCoachControlLabel>false</ns12:showCoachControlLabel>
+                                        <ns12:labelPosition>0.0</ns12:labelPosition>
+                                        <ns12:saveExecutionContext>false</ns12:saveExecutionContext>
+                                    </ns12:linkVisualInfo>
+                                </ns16:extensionElements>
+                            </ns16:sequenceFlow>
+                            <ns16:sequenceFlow sourceRef="2025.dce6f969-8959-46ef-9f25-f1c083de60e5" targetRef="ff2e2700-f46f-4112-bc5e-59f9cf1b61eb" name="To End" id="2027.f020d3a5-79d9-4856-93ff-2332896b1b23">
+                                <ns16:extensionElements>
+                                    <ns12:linkVisualInfo>
+                                        <ns12:sourcePortLocation>rightCenter</ns12:sourcePortLocation>
+                                        <ns12:targetPortLocation>leftCenter</ns12:targetPortLocation>
+                                        <ns12:showLabel>false</ns12:showLabel>
+                                        <ns12:showCoachControlLabel>true</ns12:showCoachControlLabel>
+                                        <ns12:labelPosition>0.0</ns12:labelPosition>
+                                        <ns12:saveExecutionContext>true</ns12:saveExecutionContext>
+                                    </ns12:linkVisualInfo>
+                                    <ns3:coachEventBinding id="595033dc-bff6-4a1f-a530-6cbb02affca6">
+                                        <ns3:coachEventPath>okButton</ns3:coachEventPath>
+                                    </ns3:coachEventBinding>
+                                    <ns3:sequenceFlowImplementation sboSyncEnabled="true" />
+                                </ns16:extensionElements>
+                            </ns16:sequenceFlow>
+                            <ns16:dataObject itemSubjectRef="itm.12.db884a3c-c533-44b7-bb2d-47bec8ad4022" isCollection="false" name="actionableBtnClass" id="2056.ec47cc59-f5dd-4f76-89d5-47dd93cd6b20">
+                                <ns16:extensionElements>
+                                    <ns3:defaultValue useDefault="true">"Hello World"</ns3:defaultValue>
+                                </ns16:extensionElements>
+                            </ns16:dataObject>
+                            <ns3:htmlHeaderTag id="2cbe445e-4a09-43d6-a2ef-91b3f0ab77a0">
+                                <ns3:tagName>viewport</ns3:tagName>
+                                <ns3:content>width=device-width,initial-scale=1.0</ns3:content>
+                                <ns3:enabled>true</ns3:enabled>
+                            </ns3:htmlHeaderTag>
+                        </ns3:userTaskImplementation>
+                        <ns3:mobileReady>true</ns3:mobileReady>
+                        <ns3:participantRef>24.da7e4d23-78cb-4483-98ed-b9c238308a03</ns3:participantRef>
+                        <ns3:exposedAs>StartableService</ns3:exposedAs>
+                        <ns16:exposedInApp>true</ns16:exposedInApp>
+                    </ns16:extensionElements>
+                    <ns16:ioSpecification>
+                        <ns16:inputSet id="_679ed001-16f4-468b-bd04-866061e8f82d" />
+                        <ns16:outputSet id="_ca162b5c-62f3-4999-bd83-e3de0644a504" />
+                    </ns16:ioSpecification>
+                </ns16:globalUserTask>
+            </ns16:definitions>
+        </coachflow>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.d04a0946-ba96-4253-831d-4a0a7083f8af</processLinkId>
+            <processId>1.692dec8f-4c6d-4ffc-84ea-4528226e7322</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.408a44bd-7099-48c1-a3a5-4f7345b8d192</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.48d4b800-5e82-4a66-8847-7690b9eead8e</toProcessItemId>
+            <guid>1e7054ab-c88a-4217-9c19-86ac82c28c56</guid>
+            <versionId>9c37a76b-0c60-47f0-80e7-c5f1aeef0f26</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="rightCenter" portType="2" />
+            <fromProcessItemId>2025.408a44bd-7099-48c1-a3a5-4f7345b8d192</fromProcessItemId>
+            <toProcessItemId>2025.48d4b800-5e82-4a66-8847-7690b9eead8e</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+

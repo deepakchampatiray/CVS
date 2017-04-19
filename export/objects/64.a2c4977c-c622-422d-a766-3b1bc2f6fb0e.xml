@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e" name="Progress Bar">
+        <lastModified>1489604640740</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;cc361000-fd2a-46cc-8e61-dd1dc62c6dff&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;08902b75-929a-4716-828f-09f4a624cd2f&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b0469ecf-a9e0-4b78-8a47-673c3f992862&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;div class="textLabel ng-cloak" ng-show="showLabel()"&amp;gt;
+	&amp;lt;label id="progress-label-{{viewid}}" class="text control-label" ng-class="'bpm-label-'+textSize" dir="{{textDirection}}" ng-bind="label"&amp;gt;&amp;lt;/label&amp;gt;{{bindingValue}}
+&amp;lt;/div&amp;gt;
+&amp;lt;div id="progressBar-{{viewid}}" class="ng-cloak" role="progressbar" aria-valuenow="{{bindingValue}}" aria-valuemin="{{minValue}}" aria-valuemax="{{maxValue}}"&amp;gt;
+  &amp;lt;div ng-repeat="bar in progressBars"&amp;gt;
+	&amp;lt;meter id="progressBar-progress-{{viewid}}" ng-disabled="disabled"
+		aria-labelledby="progress-label-{{viewid}}" value="{{bar.value}}" min="{{minValue || 0}}" max="{{maxValue || 100}}" style="width:100%" &amp;gt;
+	&amp;lt;/meter&amp;gt;
+	&amp;lt;input type="number" ng-model="bar.value" /&amp;gt;
+  &amp;lt;/div&amp;gt;
+	&amp;lt;input type="number" ng-model="minValue" /&amp;gt;
+	&amp;lt;input type="number" ng-model="maxValue" /&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>true</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>true</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction>console.log("LOAD", coachViewHelper);&#xD;
+coachViewHelper.bootstrap(this, "responsive.coaches",  "progressBar", {Explorer: 9});</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction>console.log("View", this);&#xD;
+coachViewHelper.init();&#xD;
+var cv = this;&#xD;
+&#xD;
+this.$scope.$watch(this.$scope.bindingValue, function(){&#xD;
+			cv.updateProgressBars(cv.$scope);&#xD;
+			//console.log(this, cv);&#xD;
+		});&#xD;
+&#xD;
+/*&#xD;
+setTimeout((function(cv){&#xD;
+	return function() {&#xD;
+		cv.$scope.$apply(function(){&#xD;
+		  cv.$scope.progressBars = [];&#xD;
+		  for(var i=0; i&lt;cv.$scope.bindingValue; i++) {&#xD;
+			var bar = {&#xD;
+				value: Math.ceil(Math.random()*100)&#xD;
+			}&#xD;
+			cv.$scope.progressBars.push(bar);&#xD;
+		  }&#xD;
+		});&#xD;
+	}&#xD;
+})(this), 100);&#xD;
+*/</viewJsFunction>
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>guid:aea4aedfbd691198:4d4bc3e9:15a9cf3a956:-777b</guid>
+        <versionId>66f8db84-d81f-4b58-b296-14ae428ccb54</versionId>
+        <bindingType name="numberOfProgressBars">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.7a277767-3ae2-4a3c-9a77-3873cb7d848c</coachViewBindingTypeId>
+            <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+            <isList>false</isList>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>5c1b7f59-e803-4dab-9999-caa2cc7f017b</guid>
+            <versionId>195c3878-31ce-4ceb-a989-d6cecfbfee3f</versionId>
+        </bindingType>
+        <configOption name="maxValue">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.d131a3db-c2f6-4806-833f-2c37603643fc</coachViewConfigOptionId>
+            <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>e9c90634-dfb3-4a28-8eec-5661dfd2fa39</guid>
+            <versionId>c648bd36-d085-4f7f-a1fe-a0cf43262a17</versionId>
+        </configOption>
+        <configOption name="minValue">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.ab6bf0d7-e4d2-476e-bcac-ed0bc12f5f7f</coachViewConfigOptionId>
+            <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>d6336f09-58ea-4a1f-a292-5ee1e7fd1e75</guid>
+            <versionId>b97841ac-204f-4c68-abf7-27d6fb9c78e4</versionId>
+        </configOption>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.6027d78e-0ad4-4f99-9401-7c53ddfb68c8</coachViewInlineScriptId>
+            <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>/*&#xD;
+@dojoConfigUpdateStart&#xD;
+dojoConfig.packages.push({&#xD;
+name: 'com.ibm.bpm.coach.angular',&#xD;
+location: com_ibm_bpm_coach.getManagedAssetUrl('coachview.helper.min.zip',&#xD;
+com_ibm_bpm_coach.assetType_WEB, 'SYSRC')&#xD;
+});&#xD;
+@dojoConfigUpdateEnd&#xD;
+*/ &#xD;
+&#xD;
+var cv = this;&#xD;
+console.log("CV1", cv);&#xD;
+&#xD;
+cv.updateProgressBars = function($scope) {&#xD;
+	 $scope.progressBars = [];&#xD;
+		    for(var i=0; i&lt;$scope.bindingValue; i++) {&#xD;
+			var bar = {&#xD;
+				value: Math.ceil(Math.random()*100)&#xD;
+			}&#xD;
+			$scope.progressBars.push(bar);&#xD;
+		    }&#xD;
+}&#xD;
+&#xD;
+angular&#xD;
+	.module("responsive.coaches")&#xD;
+	.controller("progressBar", ["$scope", "$element", "$timeout","Coach", function &#xD;
+		($scope, $element, $timeout, Coach)&#xD;
+	{&#xD;
+		"use strict";&#xD;
+		//console.log("Scope", $scope, $scope.bindingValue);&#xD;
+		angular.extend($scope, new Coach($scope, $element, $timeout));&#xD;
+		$scope.progressBars = [];&#xD;
+		&#xD;
+		$scope.watchOption("maxValue", 100);&#xD;
+		$scope.watchOption("minValue", 0);&#xD;
+		cv.$scope = $scope;&#xD;
+		&#xD;
+		$scope.$watch($scope.bindingValue, function(){&#xD;
+			cv.updateProgressBars($scope);&#xD;
+		});&#xD;
+		&#xD;
+		console.log("CV2", cv);&#xD;
+}]);</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>e5a3eb5a-3c5a-4a5b-aff3-1dd7347069a0</guid>
+            <versionId>304bf970-0173-4129-b04a-b5c0aacb9289</versionId>
+        </inlineScript>
+        <amdDependency>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewAmdDepId>70.53295a0d-86fd-47f4-9d6e-797ef11229a9</coachViewAmdDepId>
+            <coachViewId>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</coachViewId>
+            <moduleId>com.ibm.bpm.coach.angular/scripts/coachViewHelper</moduleId>
+            <functionArgument>coachViewHelper</functionArgument>
+            <seq>0</seq>
+            <guid>4a5a587a-513f-457b-90a7-ba959ce6cfcb</guid>
+            <versionId>d5b9b239-eb3e-4787-8dcf-6777ee76e165</versionId>
+        </amdDependency>
+    </coachView>
+</teamworks>
+

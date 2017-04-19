@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.53992f8b-6eb2-4a03-9410-eca24fdc1877" name="BootstrapCV">
+        <lastModified>1488479193389</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <coachViewId>64.53992f8b-6eb2-4a03-9410-eca24fdc1877</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;e164063d-2bdc-47dc-89f0-3e2161098e12&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;ab797a98-669f-4f1f-89cb-f958d9fb18aa&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;0b506120-72fb-4bf7-8593-c2d59887e573&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;div class="BPM_Resp_CVS_BootstrapCV container"&amp;gt;
+	&amp;lt;a href="#" id="$$viewDOMID$$_doSomething" class="btn btn-primary btn-block-lg"&amp;gt;Do Something&amp;lt;/a&amp;gt;
+	&amp;lt;div class="glyphicon-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Glyphicons&amp;lt;/h2&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-asterisk" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-plus" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-euro" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-cloud" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-glass" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-user" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-ok" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+		&amp;lt;span class="glyphicon glyphicon-off" aria-hidden="true"&amp;gt;&amp;lt;/span&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="dropdown-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Dropdowns&amp;lt;/h2&amp;gt;
+		&amp;lt;span class="dropdown"&amp;gt;
+		  &amp;lt;button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"&amp;gt;
+			Dropdown
+			&amp;lt;span class="caret"&amp;gt;&amp;lt;/span&amp;gt;
+		  &amp;lt;/button&amp;gt;
+		  &amp;lt;ul class="dropdown-menu" aria-labelledby="dropdownMenu1"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Another action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Something else here&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li role="separator" class="divider"&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/span&amp;gt;
+		&amp;lt;span class="dropup"&amp;gt;
+		  &amp;lt;button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"&amp;gt;
+			Dropup
+			&amp;lt;span class="caret"&amp;gt;&amp;lt;/span&amp;gt;
+		  &amp;lt;/button&amp;gt;
+		  &amp;lt;ul class="dropdown-menu" aria-labelledby="dropdownMenu1"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Another action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Something else here&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li role="separator" class="divider"&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/span&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="buttongroup-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Button Group&amp;lt;/h2&amp;gt;
+		Note : btn-group-lg, btn-group-sm and btn-group-xs DOES NOT work.
+		&amp;lt;br/&amp;gt;
+		&amp;lt;div class="btn-group" role="group" aria-label="..."&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default"&amp;gt;Left&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-primary"&amp;gt;Middle&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-success"&amp;gt;Right&amp;lt;/button&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="btn-group btn-group-lg" role="group" aria-label="..." title="Supposed to be larger buttons"&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default"&amp;gt;Left&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-primary"&amp;gt;Middle&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-success"&amp;gt;Right&amp;lt;/button&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="btn-group" role="group" aria-label="..." title="Button Group Nesting"&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default"&amp;gt;First&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default"&amp;gt;Second&amp;lt;/button&amp;gt;
+
+		  &amp;lt;div class="btn-group" role="group"&amp;gt;
+			&amp;lt;button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&amp;gt;
+			  Dropdown
+			  &amp;lt;span class="caret"&amp;gt;&amp;lt;/span&amp;gt;
+			&amp;lt;/button&amp;gt;
+			&amp;lt;ul class="dropdown-menu"&amp;gt;
+			  &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Dropdown link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			  &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Dropdown link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;/ul&amp;gt;
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="btn-group-vertical" role="group" aria-label="..." title="Vertical Button group"&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default"&amp;gt;Top&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-primary"&amp;gt;Center&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-success"&amp;gt;bottom&amp;lt;/button&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;br/&amp;gt;
+		&amp;lt;div class="btn-group btn-group-justified" role="group" title="Justified button group with 'a' elements"&amp;gt;
+			&amp;lt;a href="#" class="btn btn-default" role="button"&amp;gt;Left&amp;lt;/a&amp;gt;
+			&amp;lt;a href="#" class="btn btn-success" role="button"&amp;gt;Middle&amp;lt;/a&amp;gt;
+			&amp;lt;a href="#" class="btn btn-info" role="button"&amp;gt;Right&amp;lt;/a&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;br/&amp;gt;
+		&amp;lt;div class="btn-group btn-group-justified" role="group" aria-label="Justified button group"&amp;gt;
+			&amp;lt;div class="btn-group" role="group"&amp;gt; &amp;lt;button type="button" class="btn btn-success"&amp;gt;Left&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt; 
+			&amp;lt;div class="btn-group" role="group"&amp;gt; &amp;lt;button type="button" class="btn btn-warning"&amp;gt;Middle&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt; 
+			&amp;lt;div class="btn-group" role="group"&amp;gt; &amp;lt;button type="button" class="btn btn-danger"&amp;gt;Right&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt; 
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="buttodropdown-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Button Dropdowns&amp;lt;/h2&amp;gt;
+		&amp;lt;div class="btn-group"&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&amp;gt;
+			Action &amp;lt;span class="caret"&amp;gt;&amp;lt;/span&amp;gt;
+		  &amp;lt;/button&amp;gt;
+		  &amp;lt;ul class="dropdown-menu"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Another action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Something else here&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li role="separator" class="divider"&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="btn-group" title="Split Button Dropdown"&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-danger"&amp;gt;Action&amp;lt;/button&amp;gt;
+		  &amp;lt;button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&amp;gt;
+			&amp;lt;span class="caret"&amp;gt;&amp;lt;/span&amp;gt;
+			&amp;lt;span class="sr-only"&amp;gt;Toggle Dropdown&amp;lt;/span&amp;gt;
+		  &amp;lt;/button&amp;gt;
+		  &amp;lt;ul class="dropdown-menu"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Another action&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Something else here&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li role="separator" class="divider"&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Separated link&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="inputgroup-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Input Groups&amp;lt;/h2&amp;gt;
+		&amp;lt;div class="input-group"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="basic-addon1"&amp;gt;@&amp;lt;/span&amp;gt;
+		  &amp;lt;input id="$$viewDOMID$$_userName" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"&amp;gt;
+		&amp;lt;/div&amp;gt;
+
+		&amp;lt;div class="input-group"&amp;gt;
+		  &amp;lt;input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="basic-addon2"&amp;gt;@example.com&amp;lt;/span&amp;gt;
+		&amp;lt;/div&amp;gt;
+
+		&amp;lt;div class="input-group"&amp;gt;
+		  &amp;lt;span class="input-group-addon"&amp;gt;$&amp;lt;/span&amp;gt;
+		  &amp;lt;input id="$$viewDOMID$$_dollarValue" type="text" class="form-control" aria-label="Amount (to the nearest dollar)"&amp;gt;
+		  &amp;lt;span class="input-group-addon"&amp;gt;.00&amp;lt;/span&amp;gt;
+		&amp;lt;/div&amp;gt;
+
+		&amp;lt;div class="input-group"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="basic-addon3"&amp;gt;https://example.com/users/&amp;lt;/span&amp;gt;
+		  &amp;lt;input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"&amp;gt;
+		&amp;lt;/div&amp;gt;
+		
+		&amp;lt;div class="input-group input-group-lg"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="sizing-addon1"&amp;gt;@&amp;lt;/span&amp;gt;
+		  &amp;lt;input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"&amp;gt;
+		&amp;lt;/div&amp;gt;
+
+		&amp;lt;div class="input-group"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="sizing-addon2"&amp;gt;@&amp;lt;/span&amp;gt;
+		  &amp;lt;input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2"&amp;gt;
+		&amp;lt;/div&amp;gt;
+
+		&amp;lt;div class="input-group input-group-sm"&amp;gt;
+		  &amp;lt;span class="input-group-addon" id="sizing-addon3"&amp;gt;@&amp;lt;/span&amp;gt;
+		  &amp;lt;input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3"&amp;gt;
+		&amp;lt;/div&amp;gt;
+		
+		&amp;lt;div class="row" title="Checkboxes and Radio Buttons"&amp;gt;
+		  &amp;lt;div class="col-lg-6"&amp;gt;
+			&amp;lt;div class="input-group"&amp;gt;
+			  &amp;lt;span class="input-group-addon"&amp;gt;
+				&amp;lt;input type="checkbox" aria-label="..."&amp;gt;
+			  &amp;lt;/span&amp;gt;
+			  &amp;lt;input type="text" class="form-control" aria-label="..."&amp;gt;
+			&amp;lt;/div&amp;gt;&amp;lt;!-- /input-group --&amp;gt;
+		  &amp;lt;/div&amp;gt;&amp;lt;!-- /.col-lg-6 --&amp;gt;
+		  &amp;lt;div class="col-lg-6"&amp;gt;
+			&amp;lt;div class="input-group"&amp;gt;
+			  &amp;lt;span class="input-group-addon"&amp;gt;
+				&amp;lt;input type="radio" aria-label="..."&amp;gt;
+			  &amp;lt;/span&amp;gt;
+			  &amp;lt;input type="text" class="form-control" aria-label="..."&amp;gt;
+			&amp;lt;/div&amp;gt;&amp;lt;!-- /input-group --&amp;gt;
+		  &amp;lt;/div&amp;gt;&amp;lt;!-- /.col-lg-6 --&amp;gt;
+		&amp;lt;/div&amp;gt;&amp;lt;!-- /.row --&amp;gt;
+		
+		&amp;lt;div class="row" title="Button Addons"&amp;gt;
+		  &amp;lt;div class="col-lg-6"&amp;gt;
+			&amp;lt;div class="input-group"&amp;gt;
+			  &amp;lt;span class="input-group-btn"&amp;gt;
+				&amp;lt;button class="btn btn-danger" type="button"&amp;gt;Go!&amp;lt;/button&amp;gt;
+			  &amp;lt;/span&amp;gt;
+			  &amp;lt;input type="text" class="form-control" placeholder="Search for..."&amp;gt;
+			&amp;lt;/div&amp;gt;&amp;lt;!-- /input-group --&amp;gt;
+		  &amp;lt;/div&amp;gt;&amp;lt;!-- /.col-lg-6 --&amp;gt;
+		  &amp;lt;div class="col-lg-6"&amp;gt;
+			&amp;lt;div class="input-group"&amp;gt;
+			  &amp;lt;input type="text" class="form-control" placeholder="Search for..."&amp;gt;
+			  &amp;lt;span class="input-group-btn"&amp;gt;
+				&amp;lt;button class="btn btn-primary" type="button"&amp;gt;Go!&amp;lt;/button&amp;gt;
+			  &amp;lt;/span&amp;gt;
+			&amp;lt;/div&amp;gt;&amp;lt;!-- /input-group --&amp;gt;
+		  &amp;lt;/div&amp;gt;&amp;lt;!-- /.col-lg-6 --&amp;gt;
+		&amp;lt;/div&amp;gt;&amp;lt;!-- /.row --&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="breadcrumb-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Breadcrumbs&amp;lt;/h2&amp;gt;
+		&amp;lt;ol class="breadcrumb"&amp;gt;
+		  &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Library&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;li class="active"&amp;gt;Data&amp;lt;/li&amp;gt;
+		&amp;lt;/ol&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="pagination-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Pagination and Pager&amp;lt;/h2&amp;gt;
+		
+		&amp;lt;ul class="pagination pagination-lg"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Previous"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;«&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Next"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;»&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+		&amp;lt;br/&amp;gt;
+		&amp;lt;ul class="pagination"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Previous"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;«&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Next"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;»&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+		&amp;lt;br/&amp;gt;
+		&amp;lt;ul class="pagination pagination-sm"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Previous"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;«&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;6&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;7&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;8&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;9&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;10&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#" aria-label="Next"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;»&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+		&amp;lt;br/&amp;gt;
+		&amp;lt;nav aria-label="..."&amp;gt;
+		  &amp;lt;ul class="pager"&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Previous&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;&amp;lt;a href="#"&amp;gt;Next&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/nav&amp;gt;
+		&amp;lt;nav aria-label="..."&amp;gt;
+		  &amp;lt;ul class="pager"&amp;gt;
+			&amp;lt;li class="previous"&amp;gt;&amp;lt;a href="#"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;&amp;amp;larr;&amp;lt;/span&amp;gt; Older&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+			&amp;lt;li class="next"&amp;gt;&amp;lt;a href="#"&amp;gt;Newer &amp;lt;span aria-hidden="true"&amp;gt;&amp;amp;rarr;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+		  &amp;lt;/ul&amp;gt;
+		&amp;lt;/nav&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="label-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Labels&amp;lt;/h2&amp;gt;
+		&amp;lt;span class="label label-default"&amp;gt;Default&amp;lt;/span&amp;gt;
+		&amp;lt;span class="label label-primary"&amp;gt;Primary&amp;lt;/span&amp;gt;
+		&amp;lt;span class="label label-success"&amp;gt;Success&amp;lt;/span&amp;gt;
+		&amp;lt;span class="label label-info"&amp;gt;Info&amp;lt;/span&amp;gt;
+		&amp;lt;span class="label label-warning"&amp;gt;Warning&amp;lt;/span&amp;gt;
+		&amp;lt;span class="label label-danger"&amp;gt;Danger&amp;lt;/span&amp;gt;
+		
+		&amp;lt;div title="Labels of different Sizes"&amp;gt;
+			&amp;lt;h1&amp;gt;&amp;lt;span class="label label-primary"&amp;gt;Primary&amp;lt;/span&amp;gt;&amp;lt;/h1&amp;gt;
+			&amp;lt;h2&amp;gt;&amp;lt;span class="label label-primary"&amp;gt;Primary&amp;lt;/span&amp;gt;&amp;lt;/h2&amp;gt;
+			&amp;lt;h3&amp;gt;&amp;lt;span class="label label-primary"&amp;gt;Primary&amp;lt;/span&amp;gt;&amp;lt;/h3&amp;gt;
+			&amp;lt;h4&amp;gt;&amp;lt;span class="label label-primary"&amp;gt;Primary&amp;lt;/span&amp;gt;&amp;lt;/h4&amp;gt;
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="badges-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Badges&amp;lt;/h2&amp;gt;
+		&amp;lt;a href="#"&amp;gt;Inbox &amp;lt;span class="badge"&amp;gt;42&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+
+		&amp;lt;button class="btn btn-primary" type="button"&amp;gt;
+		  Messages &amp;lt;span class="badge"&amp;gt;4&amp;lt;/span&amp;gt;
+		&amp;lt;/button&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="thumbnails-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Thumbnails&amp;lt;/h2&amp;gt;
+		&amp;lt;div class="row"&amp;gt; 
+			&amp;lt;div class="col-md-3 col-xs-6"&amp;gt; 
+				&amp;lt;a href="#" class="thumbnail"&amp;gt; 
+					&amp;lt;img alt="100%x180" data-src="" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVhNzY4Yjk0MzUgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWE3NjhiOTQzNSI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"&amp;gt; 
+				&amp;lt;/a&amp;gt; 
+			&amp;lt;/div&amp;gt; 
+			&amp;lt;div class="col-md-3 col-xs-6"&amp;gt; 
+				&amp;lt;a href="#" class="thumbnail"&amp;gt; 
+					&amp;lt;img alt="100%x180" data-src="holder.js/100%x180" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE3MSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVhNzY4YjgzMTIgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWE3NjhiODMxMiI+PHJlY3Qgd2lkdGg9IjE3MSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI2MSIgeT0iOTQuNSI+MTcxeDE4MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"&amp;gt; 
+				&amp;lt;/a&amp;gt; 
+			&amp;lt;/div&amp;gt; 
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="alert-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Alert&amp;lt;/h2&amp;gt;
+		&amp;lt;div class="alert alert-success" role="alert"&amp;gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&amp;lt;/div&amp;gt;
+		&amp;lt;div class="alert alert-info" role="alert"&amp;gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&amp;lt;/div&amp;gt;
+		&amp;lt;div class="alert alert-warning" role="alert"&amp;gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&amp;lt;/div&amp;gt;
+		&amp;lt;div class="alert alert-danger" role="alert"&amp;gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&amp;lt;/div&amp;gt;
+		
+		&amp;lt;div class="alert alert-warning alert-dismissible" role="alert"&amp;gt;
+		  &amp;lt;button type="button" class="close" data-dismiss="alert" aria-label="Close"&amp;gt;&amp;lt;span aria-hidden="true"&amp;gt;&amp;amp;times;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;
+		  &amp;lt;strong&amp;gt;Warning!&amp;lt;/strong&amp;gt; Better check yourself, you're not looking too good.
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+	
+	&amp;lt;div class="progressbar-examples"&amp;gt;
+		&amp;lt;h2&amp;gt;Progressbar&amp;lt;/h2&amp;gt;
+		&amp;lt;div class="progress"&amp;gt;
+		  &amp;lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"&amp;gt;
+			&amp;lt;span class="sr-only"&amp;gt;60% Complete&amp;lt;/span&amp;gt;
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="progress"&amp;gt;
+		  &amp;lt;div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"&amp;gt;
+			60%
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="progress"&amp;gt;
+		  &amp;lt;div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"&amp;gt;
+			&amp;lt;span class="sr-only"&amp;gt;20% Complete&amp;lt;/span&amp;gt;
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="progress"&amp;gt;
+		  &amp;lt;div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%"&amp;gt;
+			40%
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class="progress"&amp;gt;
+		  &amp;lt;div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%"&amp;gt;
+			40%
+		  &amp;lt;/div&amp;gt;
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>true</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction> var cv = this;&#xD;
+&#xD;
+ var cvBinding = cv.context.binding.get("value");&#xD;
+ &#xD;
+ require(["jquery"], function($){&#xD;
+ 	require(["bootstrap"], function(){&#xD;
+ 		$("#"+cv.context.viewid + "_doSomething").on("click", function() {&#xD;
+ 			cv.context.trigger();&#xD;
+ 		});&#xD;
+ 		&#xD;
+ 		$("#"+cv.context.viewid + "_userName").on("change", function(evt) {&#xD;
+ 			var local = cv.context.binding.get("value");&#xD;
+ 			console.log("Username Changed", local, evt, this);&#xD;
+ 			cvBinding.name = $(this).val();&#xD;
+ 		});&#xD;
+ 	});&#xD;
+ });</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction isNull="true" />
+        <changeJsFunction> console.log("Change Fired");</changeJsFunction>
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>guid:26e6cdab58769654:4ee513c:15a758ad273:-7fa5</guid>
+        <versionId>46dd5616-35ee-49b9-8d1b-3f41a8915aa2</versionId>
+        <bindingType name="nvPair">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.39160439-a242-43b6-802a-1a9c5233fde5</coachViewBindingTypeId>
+            <coachViewId>64.53992f8b-6eb2-4a03-9410-eca24fdc1877</coachViewId>
+            <isList>false</isList>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.d2e5a15a-ea53-4793-9e93-29af5bd80b13</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>928c818c-f65b-423f-9486-21e47bdfdf2d</guid>
+            <versionId>59031067-0530-4b38-963c-97db353c4d90</versionId>
+        </bindingType>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.b2285772-918a-46b4-aa31-9475224e724d</coachViewInlineScriptId>
+            <coachViewId>64.53992f8b-6eb2-4a03-9410-eca24fdc1877</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>/*&#xD;
+@dojoConfigUpdateStart&#xD;
+dojoConfig.packages.push({&#xD;
+	name: 'jquery',&#xD;
+	location: '//code.jquery.com',&#xD;
+	main: 'jquery-1.12.4.min'&#xD;
+});&#xD;
+dojoConfig.packages.push({&#xD;
+	name: 'bootstrap',&#xD;
+	location: '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js',&#xD;
+	main: 'bootstrap.min'&#xD;
+});&#xD;
+@dojoConfigUpdateEnd&#xD;
+*/ </scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>927a0dda-4085-469c-b70a-8ffb298b4a78</guid>
+            <versionId>8ac7874b-99cb-4de0-8ff3-06f1cb84bac5</versionId>
+        </inlineScript>
+        <inlineScript name="Inline CSS">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.7c300288-8b6c-47ae-9ddc-0b55593d5ce1</coachViewInlineScriptId>
+            <coachViewId>64.53992f8b-6eb2-4a03-9410-eca24fdc1877</coachViewId>
+            <scriptType>CSS</scriptType>
+            <scriptBlock>div.glyphicon-examples .glyphicon{&#xD;
+	font-size : 5em;&#xD;
+	padding-right: 20px;&#xD;
+} &#xD;
+&#xD;
+div.BPM_Resp_CVS_BootstrapCV &gt; div &gt; h2 {&#xD;
+	text-decoration: underline;&#xD;
+}&#xD;
+&#xD;
+div.buttongroup-examples &gt; .btn-group {&#xD;
+	margin-right : 40px;&#xD;
+	margin-top : 10px;&#xD;
+}&#xD;
+&#xD;
+div.inputgroup-examples .input-group {&#xD;
+	margin-top : 10px;&#xD;
+}</scriptBlock>
+            <seq>1</seq>
+            <description isNull="true" />
+            <guid>78644870-a9e2-4df1-a45b-b4453b7cce0b</guid>
+            <versionId>f065f7bd-3f5f-4b78-8e92-8fdea1a7d7d4</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

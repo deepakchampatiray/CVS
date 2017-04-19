@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <bpd id="25.4d1ab41b-0f73-4e91-85e5-3d6be162eb0d" name="DCR_SampleBPD">
+        <lastModified>1472384179301</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <bpdId>25.4d1ab41b-0f73-4e91-85e5-3d6be162eb0d</bpdId>
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <isSpcEnabled>false</isSpcEnabled>
+        <restrictedName isNull="true" />
+        <isCriticalPathEnabled>true</isCriticalPathEnabled>
+        <participantRef isNull="true" />
+        <businessDataParticipantRef isNull="true" />
+        <perfMetricParticipantRef isNull="true" />
+        <ownerTeamParticipantRef isNull="true" />
+        <timeScheduleType isNull="true" />
+        <timeScheduleName isNull="true" />
+        <timeScheduleExpression isNull="true" />
+        <holidayScheduleType isNull="true" />
+        <holidayScheduleName isNull="true" />
+        <holidayScheduleExpression isNull="true" />
+        <timezoneType isNull="true" />
+        <timezone isNull="true" />
+        <timezoneExpression isNull="true" />
+        <internalName isNull="true" />
+        <description isNull="true" />
+        <type isNull="true" />
+        <rootBpdId isNull="true" />
+        <parentBpdId isNull="true" />
+        <parentFlowObjectId isNull="true" />
+        <xmlData isNull="true" />
+        <bpmn2Data isNull="true" />
+        <dependencySummary isNull="true" />
+        <templateId isNull="true" />
+        <externalId isNull="true" />
+        <guid>guid:371c3f1696de511b:2800efe0:156cf23d908:-7ffc</guid>
+        <versionId>9acd7de2-7e7d-46c6-88e5-90f920f962ea</versionId>
+        <BusinessProcessDiagram id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ffd">
+            <metadata>
+                <entry>
+                    <key>SAP_META.SHOULDRECOVER</key>
+                    <value>no</value>
+                </entry>
+                <entry>
+                    <key>SAP_META.ERROR</key>
+                    <value>true</value>
+                </entry>
+            </metadata>
+            <name>DCR_SampleBPD</name>
+            <name>DCR_SampleBPD</name>
+            <dimension>
+                <size w="600" h="150" />
+            </dimension>
+            <author>xx27590</author>
+            <isTrackingEnabled>true</isTrackingEnabled>
+            <isCriticalPathEnabled>true</isCriticalPathEnabled>
+            <isSpcEnabled>false</isSpcEnabled>
+            <isDueDateEnabled>true</isDueDateEnabled>
+            <isAtRiskCalcEnabled>true</isAtRiskCalcEnabled>
+            <creationDate>1472383044774</creationDate>
+            <modificationDate>1472384179000</modificationDate>
+            <metricSettings itemType="2" />
+            <instanceNameExpression>"DCR_SampleBPD:" + tw.system.process.instanceId</instanceNameExpression>
+            <dueDateType>1</dueDateType>
+            <dueDateTime>8</dueDateTime>
+            <dueDateTimeResolution>1</dueDateTimeResolution>
+            <dueDateTimeTOD>00:00</dueDateTimeTOD>
+            <officeIntegration>
+                <sharePointUserName>username</sharePointUserName>
+                <sharePointPassword></sharePointPassword>
+                <sharePointURL>http://mysharepointserver</sharePointURL>
+                <sharePointParentSiteDisabled>true</sharePointParentSiteDisabled>
+                <sharePointParentSiteName>&lt;#= tw.system.process.name #&gt;</sharePointParentSiteName>
+                <sharePointParentSiteTemplate>ParentSiteTemplate.stp</sharePointParentSiteTemplate>
+                <sharePointWorkspaceSiteName>&lt;#= tw.system.process.name #&gt; &lt;#= tw.system.process.instanceId #&gt;</sharePointWorkspaceSiteName>
+                <sharePointWorkspaceSiteDescription>This site has been automatically generated for managing collaborations and documents 
+for the Lombardi TeamWorks process instance: &lt;#= tw.system.process.name #&gt; &lt;#= tw.system.process.instanceId #&gt;
+
+TeamWorks Link:  http://localhost:9082/portal/jsp/getProcessDetails.do?bpdInstanceId=&lt;#= tw.system.process.instanceId #&gt;
+
+</sharePointWorkspaceSiteDescription>
+                <sharePointWorkspaceSiteTemplate>WorkspaceSiteTemplate.stp</sharePointWorkspaceSiteTemplate>
+                <sharePointLCID>1033</sharePointLCID>
+            </officeIntegration>
+            <timeScheduleType>0</timeScheduleType>
+            <holidayScheduleType>0</holidayScheduleType>
+            <timezoneType>0</timezoneType>
+            <executionProfile>default</executionProfile>
+            <isSBOSyncEnabled>true</isSBOSyncEnabled>
+            <allowContentOperations>false</allowContentOperations>
+            <isLegacyCaseMigrated>false</isLegacyCaseMigrated>
+            <defaultPool>
+                <BpmnObjectId id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ffb" />
+            </defaultPool>
+            <defaultInstanceUI id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a7" />
+            <ownerTeamInstanceUI id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a5" />
+            <simulationScenario id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a6">
+                <name>Default</name>
+                <simNumInstances>100</simNumInstances>
+                <simMinutesBetween>30</simMinutesBetween>
+                <maxInstances>100</maxInstances>
+                <useMaxInstances>true</useMaxInstances>
+                <continueFromReal>false</continueFromReal>
+                <useParticipantCalendars>false</useParticipantCalendars>
+                <useDuration>false</useDuration>
+                <duration>86400</duration>
+                <startTime>1472383044992</startTime>
+            </simulationScenario>
+            <flow id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe0" connectionType="SequenceFlow">
+                <nameVisible>false</nameVisible>
+                <metricSettings itemType="32" />
+                <connection>
+                    <lineType>0</lineType>
+                    <condition id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdf" />
+                </connection>
+            </flow>
+            <flow id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdc" connectionType="SequenceFlow">
+                <nameVisible>false</nameVisible>
+                <metricSettings itemType="32" />
+                <connection>
+                    <lineType>0</lineType>
+                    <condition id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdb" />
+                </connection>
+            </flow>
+            <flow id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe4" connectionType="SequenceFlow">
+                <nameVisible>false</nameVisible>
+                <metricSettings itemType="32" />
+                <connection>
+                    <lineType>0</lineType>
+                    <condition id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe3" />
+                </connection>
+            </flow>
+            <pool id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ffb">
+                <name>Pool</name>
+                <documentation>This is my pool.</documentation>
+                <restrictedName>at1472383044790</restrictedName>
+                <dimension>
+                    <size w="3000" h="300" />
+                </dimension>
+                <autoTrackingEnabled>false</autoTrackingEnabled>
+                <lane id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ffa">
+                    <name>Team</name>
+                    <height>150</height>
+                    <laneColor>0</laneColor>
+                    <systemLane>false</systemLane>
+                    <attachedParticipant>ae31606f-3de3-4bd3-873d-45833be340bc/24.da7e4d23-78cb-4483-98ed-b9c238308a03</attachedParticipant>
+                    <flowObject id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff8" componentType="Event">
+                        <name>Start</name>
+                        <position>
+                            <location x="50" y="50" />
+                        </position>
+                        <dropIconUrl>0</dropIconUrl>
+                        <colorInput>Color</colorInput>
+                        <component>
+                            <nameVisible>true</nameVisible>
+                            <eventType>1</eventType>
+                            <cancelActivity>true</cancelActivity>
+                            <repeatable>false</repeatable>
+                            <doCloseTask>true</doCloseTask>
+                        </component>
+                        <outputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe6">
+                            <positionId>rightCenter</positionId>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe4" />
+                        </outputPort>
+                    </flowObject>
+                    <flowObject id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff7" componentType="Event">
+                        <name>End</name>
+                        <position>
+                            <location x="557" y="44" />
+                        </position>
+                        <dropIconUrl>0</dropIconUrl>
+                        <colorInput>Color</colorInput>
+                        <component>
+                            <nameVisible>true</nameVisible>
+                            <eventType>2</eventType>
+                            <cancelActivity>true</cancelActivity>
+                            <repeatable>false</repeatable>
+                            <doCloseTask>true</doCloseTask>
+                            <simulationScenarioConfig id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff6">
+                                <owningSimulationScenarioId>
+                                    <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a6" />
+                                </owningSimulationScenarioId>
+                                <includeInSimulation>false</includeInSimulation>
+                                <realSimulationWhenAttached>false</realSimulationWhenAttached>
+                                <simulateUsingFiringTimeWhenAttached>true</simulateUsingFiringTimeWhenAttached>
+                                <percentageFiredWhenAttached>0</percentageFiredWhenAttached>
+                                <execTimeDistributions>
+                                    <selectedDistributionId>
+                                        <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-783b" />
+                                    </selectedDistributionId>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-783d">
+                                        <distribution distributionType="SingleValue" pos="600.0" value="1.0" />
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-783c">
+                                        <distribution distributionType="UniformDistribution" value="1.0">
+                                            <bounds from="300.0" to="900.0" />
+                                        </distribution>
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-783b">
+                                        <distribution distributionType="NormalDistribution" mu="600.0" sigma="120.0">
+                                            <bounds from="300.0" to="900.0" />
+                                        </distribution>
+                                    </distribution>
+                                </execTimeDistributions>
+                            </simulationScenarioConfig>
+                        </component>
+                        <inputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdd">
+                            <positionId>leftCenter</positionId>
+                            <input>true</input>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdc" />
+                        </inputPort>
+                    </flowObject>
+                    <flowObject id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fec" componentType="Activity">
+                        <name>Human Task</name>
+                        <position>
+                            <location x="365" y="36" />
+                        </position>
+                        <iconUrl>bpd/color/orange_75x55.gif</iconUrl>
+                        <dropIconUrl>2</dropIconUrl>
+                        <colorInput>Color</colorInput>
+                        <component>
+                            <loopType>0</loopType>
+                            <loopMaximum>1</loopMaximum>
+                            <startQuantity>1</startQuantity>
+                            <isAutoflowable>false</isAutoflowable>
+                            <MIOrdering>1</MIOrdering>
+                            <MIFlowCondition>0</MIFlowCondition>
+                            <cancelRemainingInstances>false</cancelRemainingInstances>
+                            <metricSettings itemType="4" />
+                            <implementationType>1</implementationType>
+                            <isConditional>false</isConditional>
+                            <bpmnTaskType>1</bpmnTaskType>
+                            <activityOptionType>REQUIRED</activityOptionType>
+                            <activityExecutionType>AUTOMATIC</activityExecutionType>
+                            <activityExecutionTypePreviousValue>AUTOMATIC</activityExecutionTypePreviousValue>
+                            <isHidden>false</isHidden>
+                            <isRepeatable>false</isRepeatable>
+                            <transactionalBehavior>0</transactionalBehavior>
+                            <implementation>
+                                <attachedActivityId>/1.a7b0cca7-bfdd-4220-8192-594231dd035e</attachedActivityId>
+                                <sendToType>1</sendToType>
+                                <taskRouting>0</taskRouting>
+                                <dueDateType>1</dueDateType>
+                                <dueDateTime>1</dueDateTime>
+                                <dueDateTimeResolution>1</dueDateTimeResolution>
+                                <dueDateTimeTOD>00:00</dueDateTimeTOD>
+                                <priorityType>0</priorityType>
+                                <priority>30.30</priority>
+                                <forceSend>true</forceSend>
+                                <timeSchedule>(use default)</timeSchedule>
+                                <timeScheduleType>0</timeScheduleType>
+                                <timeZone>(use default)</timeZone>
+                                <timeZoneType>0</timeZoneType>
+                                <holidaySchedule>(use default)</holidaySchedule>
+                                <holidayScheduleType>0</holidayScheduleType>
+                                <inputActivityParameterMapping id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fcd">
+                                    <name>caseRef</name>
+                                    <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.a4cf6da6-206a-43e9-bf8d-30d779844800</classId>
+                                    <input>true</input>
+                                    <value>tw.local.caseReference</value>
+                                    <parameterId>2055.336ae642-0ec7-4c6c-aa4b-90d492ef36bc</parameterId>
+                                </inputActivityParameterMapping>
+                                <outputActivityParameterMapping id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fcc">
+                                    <name>caseRef</name>
+                                    <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.a4cf6da6-206a-43e9-bf8d-30d779844800</classId>
+                                    <input>true</input>
+                                    <value>tw.local.caseReference</value>
+                                    <parameterId>2055.bc41663e-d42f-4f7e-b7bc-0d05cee6edcf</parameterId>
+                                </outputActivityParameterMapping>
+                                <laneFilter id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fd5">
+                                    <serviceType>1</serviceType>
+                                    <teamRef>ae31606f-3de3-4bd3-873d-45833be340bc/24.da7e4d23-78cb-4483-98ed-b9c238308a03</teamRef>
+                                </laneFilter>
+                                <teamFilter id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fd4">
+                                    <serviceType>1</serviceType>
+                                </teamFilter>
+                            </implementation>
+                            <simulationScenarioConfig id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe9">
+                                <owningSimulationScenarioId>
+                                    <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a6" />
+                                </owningSimulationScenarioId>
+                                <simulateSubProcess>false</simulateSubProcess>
+                                <execTimeDistributions>
+                                    <selectedDistributionId>
+                                        <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7838" />
+                                    </selectedDistributionId>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-783a">
+                                        <distribution distributionType="SingleValue" pos="1800.0" value="1.0" />
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7839">
+                                        <distribution distributionType="UniformDistribution" value="1.0">
+                                            <bounds from="0.0" to="3600.0" />
+                                        </distribution>
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7838">
+                                        <distribution distributionType="NormalDistribution" mu="1800.0" sigma="300.0">
+                                            <bounds from="900.0" to="2700.0" />
+                                        </distribution>
+                                    </distribution>
+                                </execTimeDistributions>
+                            </simulationScenarioConfig>
+                            <preconditions id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fea">
+                                <triggerType>0</triggerType>
+                                <matchAll>true</matchAll>
+                            </preconditions>
+                        </component>
+                        <inputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe1">
+                            <positionId>leftCenter</positionId>
+                            <input>true</input>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe0" />
+                        </inputPort>
+                        <outputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fde">
+                            <positionId>rightCenter</positionId>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fdc" />
+                        </outputPort>
+                    </flowObject>
+                </lane>
+                <lane id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff9">
+                    <name>System</name>
+                    <height>150</height>
+                    <laneColor>0</laneColor>
+                    <systemLane>true</systemLane>
+                    <attachedParticipant>ae31606f-3de3-4bd3-873d-45833be340bc/24.6fd38d02-81cf-48ab-bd42-8ff4c0a1628b</attachedParticipant>
+                    <flowObject id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff3" componentType="Activity">
+                        <name>Initialize</name>
+                        <position>
+                            <location x="210" y="48" />
+                        </position>
+                        <dropIconUrl>0</dropIconUrl>
+                        <colorInput>Color</colorInput>
+                        <component>
+                            <loopType>0</loopType>
+                            <loopMaximum>1</loopMaximum>
+                            <startQuantity>1</startQuantity>
+                            <isAutoflowable>false</isAutoflowable>
+                            <MIOrdering>1</MIOrdering>
+                            <MIFlowCondition>0</MIFlowCondition>
+                            <cancelRemainingInstances>false</cancelRemainingInstances>
+                            <metricSettings itemType="4" />
+                            <implementationType>3</implementationType>
+                            <isConditional>false</isConditional>
+                            <bpmnTaskType>4</bpmnTaskType>
+                            <activityOptionType>REQUIRED</activityOptionType>
+                            <activityExecutionType>AUTOMATIC</activityExecutionType>
+                            <activityExecutionTypePreviousValue>AUTOMATIC</activityExecutionTypePreviousValue>
+                            <isHidden>false</isHidden>
+                            <isRepeatable>false</isRepeatable>
+                            <transactionalBehavior>0</transactionalBehavior>
+                            <implementation>
+                                <script>tw.local.caseReference = new tw.object.CaseReference();
+tw.local.caseReference.caseId = "Case:" + tw.system.currentProcessInstance.id;
+tw.local.caseReference.caseFolderId = "Folder:" + tw.system.currentProcessInstance.id;
+tw.local.caseReference.caseTitle = "Title:" + tw.system.currentProcessInstance.id;
+
+tw.local.nvPairList = new tw.object.listOf.NameValuePair();
+[
+    {'name': 'One', 'value': '1'},
+    {'name': 'Two', 'value': '2'},
+    {'name': 'Three', 'value': '3'},
+    {'name': 'Four', 'value': '4'},
+].forEach(function(elem, index) {
+    var nv = new tw.object.NameValuePair();
+    nv.name = elem.name;
+    nv.value = elem.value;
+    tw.local.nvPairList.insertIntoList(index, nv);
+});</script>
+                            </implementation>
+                            <simulationScenarioConfig id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff0">
+                                <owningSimulationScenarioId>
+                                    <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-78a6" />
+                                </owningSimulationScenarioId>
+                                <simulateSubProcess>false</simulateSubProcess>
+                                <execTimeDistributions>
+                                    <selectedDistributionId>
+                                        <BpmnObjectId id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7835" />
+                                    </selectedDistributionId>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7837">
+                                        <distribution distributionType="SingleValue" pos="1800.0" value="1.0" />
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7836">
+                                        <distribution distributionType="UniformDistribution" value="1.0">
+                                            <bounds from="0.0" to="3600.0" />
+                                        </distribution>
+                                    </distribution>
+                                    <distribution id="bpdid:59f5bae978904ce5:-13fac40f:156cf3a9204:-7835">
+                                        <distribution distributionType="NormalDistribution" mu="1800.0" sigma="300.0">
+                                            <bounds from="900.0" to="2700.0" />
+                                        </distribution>
+                                    </distribution>
+                                </execTimeDistributions>
+                            </simulationScenarioConfig>
+                            <preconditions id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff1">
+                                <triggerType>0</triggerType>
+                                <matchAll>true</matchAll>
+                            </preconditions>
+                        </component>
+                        <inputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe5">
+                            <positionId>leftCenter</positionId>
+                            <input>true</input>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe4" />
+                        </inputPort>
+                        <outputPort id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe2">
+                            <positionId>rightCenter</positionId>
+                            <flow ref="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7fe0" />
+                        </outputPort>
+                    </flowObject>
+                </lane>
+                <privateVariable id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff5">
+                    <name>caseReference</name>
+                    <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.a4cf6da6-206a-43e9-bf8d-30d779844800</classId>
+                    <arrayOf>false</arrayOf>
+                    <hasDefault>false</hasDefault>
+                    <visibleInSearch>false</visibleInSearch>
+                    <isProcessInstanceCorrelator>false</isProcessInstanceCorrelator>
+                    <isSharedContext>false</isSharedContext>
+                </privateVariable>
+                <privateVariable id="bpdid:371c3f1696de511b:2800efe0:156cf23d908:-7ff4">
+                    <name>nvPairList</name>
+                    <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.d2e5a15a-ea53-4793-9e93-29af5bd80b13</classId>
+                    <arrayOf>true</arrayOf>
+                    <hasDefault>false</hasDefault>
+                    <visibleInSearch>false</visibleInSearch>
+                    <isProcessInstanceCorrelator>false</isProcessInstanceCorrelator>
+                    <isSharedContext>false</isSharedContext>
+                </privateVariable>
+            </pool>
+        </BusinessProcessDiagram>
+    </bpd>
+</teamworks>
+

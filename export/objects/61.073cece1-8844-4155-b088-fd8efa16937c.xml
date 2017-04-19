@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <managedAsset id="61.073cece1-8844-4155-b088-fd8efa16937c" name="angular.min.js">
+        <lastModified>1487475622396</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <managedAssetId>61.073cece1-8844-4155-b088-fd8efa16937c</managedAssetId>
+        <assetUuid>4ed2cfb2-f6e7-498d-ab49-2d76748829c7</assetUuid>
+        <mimeType>application/javascript</mimeType>
+        <charEncoding isNull="true" />
+        <assetTypeCode>W</assetTypeCode>
+        <length>165711</length>
+        <localLastModification>1482656837154</localLastModification>
+        <description isNull="true" />
+        <isDocumentationFile>false</isDocumentationFile>
+        <guid>704aa9cc-0961-47d6-8870-857703ea016c</guid>
+        <versionId>9771113e-26c3-4bed-9ff2-7445d8ca766e</versionId>
+    </managedAsset>
+</teamworks>
+

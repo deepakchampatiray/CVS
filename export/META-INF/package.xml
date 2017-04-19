@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:package buildId="BPM8570-20160301-140232" buildVersion="8.5.7" buildDescription="IBM Business Process Manager V8.5.7.0 - 20160301_1434 - BPM8570-20160301-140232" containsECM="false" containsBPMN2="false" xmlns:p="http://lombardisoftware.com/schema/teamworks/7.0.0/package.xsd">
+    <target>
+        <project id="2066.b096230b-77d9-4db7-9ce5-b212c0a686c2" name="Coach View Sandbox" description="" shortName="CVS" isToolkit="false" isHidden="false" isSystem="false"/>
+        <branch id="2063.72aa11d7-44e3-4203-84be-43f7b63fa859" name="Main" acronym="Main" description=""/>
+        <snapshot id="2064.24bfad07-d8bb-4bb3-aaf5-af23e6607b1c" name="041117C_Snapshot1" acronym="041117C" originalCreationDate="2017-04-11T04:06:12.926-04:00" description=""/>
+    </target>
+    <governanceAssignments/>
+    <dependencies>
+        <dependency rank="2" id="2069.57d949df-348c-438a-a43a-18158acfbd6b">
+            <project id="2066.4b3882d9-e886-4f08-9d0c-078ebda719b9" name="Content Management" shortName="SYSCM" isToolkit="true" isHidden="false" isSystem="true"/>
+            <branch id="2063.4961c615-3524-4196-90da-93c49d237009" name="Main"/>
+            <snapshot id="2064.5d120392-1f92-441f-89d6-1f6da7a6e7e3" name="8.5.7.0" originalCreationDate="2015-10-29T10:03:19.695-04:00"/>
+        </dependency>
+        <dependency rank="0" id="2069.ae31606f-3de3-4bd3-873d-45833be340bc">
+            <project id="2066.1b351583-e5cb-43b7-baee-340a63130ea7" name="System Data" shortName="TWSYS" isToolkit="true" isHidden="false" isSystem="true"/>
+            <branch id="2063.0798815e-0346-4ef4-8946-ab4301c9f340" name="Main"/>
+            <snapshot id="2064.1080ded6-d153-4654-947c-2d16fce170ed" name="8.5.7.0" originalCreationDate="2015-08-24T20:00:00.000-04:00"/>
+        </dependency>
+        <dependency rank="1" id="2069.ceb18f90-5ceb-4756-b9d5-c2afe5b71a0f">
+            <project id="2066.aa12f1cb-4661-3bd0-a351-45649d179885" name="Responsive Coaches" shortName="SYSRC" isToolkit="true" isHidden="false" isSystem="true"/>
+            <branch id="2063.7e0d6e21-f74c-3542-9f77-1472b63c22f1" name="Main"/>
+            <snapshot id="2064.c7680890-5385-3f24-bbc9-20da937ac8c4" name="8.5.7.0" originalCreationDate="2016-03-01T00:00:00.000-05:00"/>
+        </dependency>
+    </dependencies>
+    <objects>
+        <object id="1.0d64ecc0-48dd-4d62-85bc-0c9d3a644aaa" versionId="bd712112-c010-42cf-8bb3-e87da8739652" name="BootstrapCV Test" type="process"/>
+        <object id="1.2bee85b4-2cd1-430f-97c5-f73a3724bf9a" versionId="d0191687-ea3b-4d1b-8136-260d0f02b82d" name="SelectFieldAjax" type="process"/>
+        <object id="1.64a59ba0-89cf-4ac6-a43f-78a9d10f1eaf" versionId="9eede4e9-7d15-4286-973a-3d32f7a3fb60" name="File Uploader Test" type="process"/>
+        <object id="1.692dec8f-4c6d-4ffc-84ea-4528226e7322" versionId="1476e2cb-7ae0-4469-99f7-e12f16f2e778" name="Actionable Icon Test" type="process"/>
+        <object id="1.8a9c1d96-b24a-46b9-b79f-05a3b826b8fe" versionId="e1371bd6-0bb2-41a4-affc-24d430d19252" name="CVS Test Input Text" type="process"/>
+        <object id="1.98b8f0c4-285a-4df1-97e3-427a04c85b85" versionId="ffe92e25-be57-45a0-ab30-293ce43019e9" name="AjaxTest" type="process"/>
+        <object id="1.a4ca0870-23fe-4fd5-9a3e-04331988a522" versionId="fde85a8f-e4e4-4eb1-9ad6-a71607499d5d" name="Filenet Test" type="process"/>
+        <object id="1.a7b0cca7-bfdd-4220-8192-594231dd035e" versionId="3d362563-141f-4cb6-8734-90e981a559df" name="DCR_CaseDisplayService" type="process"/>
+        <object id="1.b0421021-a272-46db-b5b5-38e8ef6fa916" versionId="7169aa53-3af4-4312-a856-664bcc951159" name="Store File Details" type="process"/>
+        <object id="1.bc5aaef0-c8c9-4558-8323-1e674cf982f0" versionId="fdd1026f-ee1e-43d4-a679-c9faf1705911" name="Progress Bar Test" type="process"/>
+        <object id="1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a" versionId="28c9dd95-eca2-4dc1-8e77-e98dba013276" name="SampleAjax" type="process"/>
+        <object id="1.ea2df177-72e8-485c-bb30-be0b6371926f" versionId="ace7f74d-fe2f-43d2-89ad-8712703ccaf4" name="Deployment Service" type="process"/>
+        <object id="25.4d1ab41b-0f73-4e91-85e5-3d6be162eb0d" versionId="9acd7de2-7e7d-46c6-88e5-90f920f962ea" name="DCR_SampleBPD" type="bpd"/>
+        <object id="61.073cece1-8844-4155-b088-fd8efa16937c" versionId="9771113e-26c3-4bed-9ff2-7445d8ca766e" name="angular.min.js" type="managedAsset"/>
+        <object id="61.690faa8b-6303-4b32-b941-3689a14361ec" versionId="d3c7974e-de72-4c8f-8a80-6ad4e467ff37" name="8817f8fc-dd21-4286-8ff6-7e14081aae0c.zip" type="managedAsset"/>
+        <object id="62.157e1961-c7e8-4729-91e7-db0cf8dc3892" versionId="526054b4-3dd9-45f1-8b6e-347438984e43" name="Environment Variables" type="environmentVariableSet"/>
+        <object id="63.01d35941-ea5f-4e70-928a-7ffc02beb826" versionId="7a890870-3a62-4f5a-a443-d3dd74fb919b" name="Process App Settings" type="projectDefaults"/>
+        <object id="64.53992f8b-6eb2-4a03-9410-eca24fdc1877" versionId="46dd5616-35ee-49b9-8d1b-3f41a8915aa2" name="BootstrapCV" type="coachView"/>
+        <object id="64.796b6ea8-6669-4b1a-87cc-694553ae95dd" versionId="f1f75eac-10fb-4762-81c9-49e877db6170" name="File Uploader" type="coachView"/>
+        <object id="64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789" versionId="ac48b58b-8263-4502-8755-b8144f0265cb" name="Actionable Icon" type="coachView"/>
+        <object id="64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e" versionId="66f8db84-d81f-4b58-b296-14ae428ccb54" name="Progress Bar" type="coachView"/>
+        <object id="64.ee40e13a-d6ff-4707-be8c-62ffcfa8b3af" versionId="1ba3325a-3521-4acf-8ca9-f994de7118a2" name="CVS Input Text" type="coachView"/>
+        <object id="72.8817f8fc-dd21-4286-8ff6-7e14081aae0c" versionId="25a23221-cf3d-4f9d-ae7a-320a10fbffc8" name="Bootstrap Theme" type="uiTheme"/>
+    </objects>
+    <files>
+        <file path="4ed2cfb2-f6e7-498d-ab49-2d76748829c7" id="61.073cece1-8844-4155-b088-fd8efa16937c"/>
+        <file path="c5ad107d-577b-40cc-99bd-26c8c4c49094" id="61.690faa8b-6303-4b32-b941-3689a14361ec"/>
+    </files>
+</p:package>

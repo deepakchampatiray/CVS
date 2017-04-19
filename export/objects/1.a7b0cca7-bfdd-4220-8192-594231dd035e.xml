@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.a7b0cca7-bfdd-4220-8192-594231dd035e" name="DCR_CaseDisplayService">
+        <lastModified>1472384233304</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>3</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef isNull="true" />
+        <exposedType isNull="true" />
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength>43200</cacheLength>
+        <mobileReady>false</mobileReady>
+        <sboSyncEnabled>true</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>false</isSecured>
+        <description isNull="true" />
+        <guid>guid:371c3f1696de511b:2800efe0:156cf23d908:-7fda</guid>
+        <versionId>3d362563-141f-4cb6-8734-90e981a559df</versionId>
+        <dependencySummary isNull="true" />
+        <processParameter name="caseRef">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.336ae642-0ec7-4c6c-aa4b-90d492ef36bc</processParameterId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.a4cf6da6-206a-43e9-bf8d-30d779844800</classId>
+            <seq>1</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>51767e03-9755-42d4-b672-a889ecfc29a6</guid>
+            <versionId>407be20c-28f4-4791-8ad1-2820647e82ce</versionId>
+        </processParameter>
+        <processParameter name="caseRef">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.bc41663e-d42f-4f7e-b7bc-0d05cee6edcf</processParameterId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.a4cf6da6-206a-43e9-bf8d-30d779844800</classId>
+            <seq>2</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>1ca776fb-ca42-4daf-808a-9553f05b48e7</guid>
+            <versionId>ebfbbd25-14a4-4ec1-a8ae-134e81ff341a</versionId>
+        </processParameter>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.3fc7cdbc-50df-49b0-abfd-3b0b4d2bfe79</processItemId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <name>Postpone</name>
+            <tWComponentName>PostponeAction</tWComponentName>
+            <tWComponentId>3015.844862c5-3e5e-4c21-87e5-c068d2288675</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:371c3f1696de511b:2800efe0:156cf23d908:-7fce</guid>
+            <versionId>1a5b002e-2287-414b-a3f4-da2f5c810f7b</versionId>
+            <layoutData x="269" y="220">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <taskActionId>3015.844862c5-3e5e-4c21-87e5-c068d2288675</taskActionId>
+                <canChangeDueDate>false</canChangeDueDate>
+                <dueInOption>2</dueInOption>
+                <dueDateIncrData isNull="true" />
+                <dueDateFixedData isNull="true" />
+                <dueDateIncrType>2</dueDateIncrType>
+                <dueDateSpecificDate isNull="true" />
+                <isChangeStatusActive>false</isChangeStatusActive>
+                <newStatusOption>1</newStatusOption>
+                <newStatus isNull="true" />
+                <isPriorityActive>false</isPriorityActive>
+                <priorityOption>1</priorityOption>
+                <newPriorityId>30.30</newPriorityId>
+                <newPriorityScript isNull="true" />
+                <isSubjectActive>false</isSubjectActive>
+                <subjectOption>1</subjectOption>
+                <subjectScript isNull="true" />
+                <isNarrativeActive>false</isNarrativeActive>
+                <narrativeOption>1</narrativeOption>
+                <narrativeScript isNull="true" />
+                <isIgnoreException>true</isIgnoreException>
+                <suspendProcess>true</suspendProcess>
+                <isActionOtherTask>false</isActionOtherTask>
+                <otherTaskId isNull="true" />
+                <isReassignActive>false</isReassignActive>
+                <reassignOption>0</reassignOption>
+                <reassignTo isNull="true" />
+                <timeScheduleName isNull="true" />
+                <holidayScheduleName isNull="true" />
+                <timezone isNull="true" />
+                <guid>0365b9c2-9152-445a-a9f3-3443b9e1ca2c</guid>
+                <versionId>c901dc79-c9ca-4795-8fac-600067c53b0b</versionId>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</processItemId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <name>Show Data</name>
+            <tWComponentName>CoachNG</tWComponentName>
+            <tWComponentId>3028.555f9dae-2f2a-42d5-a87b-04982774e1c1</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:371c3f1696de511b:2800efe0:156cf23d908:-7fd2</guid>
+            <versionId>25d5c8db-e038-484f-9a73-dfd305592a3d</versionId>
+            <layoutData x="264" y="88">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <coachNGId>3028.555f9dae-2f2a-42d5-a87b-04982774e1c1</coachNGId>
+                <title>Untitled1</title>
+                <layoutData>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xD;
+&lt;layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ibm.com/bpm/CoachDesignerNG"&gt;&#xD;
+  &lt;layoutItem xsi:type="ViewRef" version="8010"&gt;&#xD;
+    &lt;layoutItemId&gt;Text3&lt;/layoutItemId&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@label&lt;/optionName&gt;&#xD;
+      &lt;value&gt;Case id&lt;/value&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@visibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@helpText&lt;/optionName&gt;&#xD;
+      &lt;value&gt;&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@labelVisibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;SHOW&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@baseTextDirection&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;placeholder&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionEnabled&lt;/optionName&gt;&#xD;
+      &lt;value&gt;false&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionService&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionDelay&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;validationRegEx&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textInputType&lt;/optionName&gt;&#xD;
+      &lt;value&gt;text&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;maxLength&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textSize&lt;/optionName&gt;&#xD;
+      &lt;value&gt;default&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;viewUUID&gt;64.d109fc11-3729-396e-bf94-d748d1967596&lt;/viewUUID&gt;&#xD;
+    &lt;binding&gt;tw.local.caseRef.caseId&lt;/binding&gt;&#xD;
+  &lt;/layoutItem&gt;&#xD;
+  &lt;layoutItem xsi:type="ViewRef" version="8010"&gt;&#xD;
+    &lt;layoutItemId&gt;Text2&lt;/layoutItemId&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@label&lt;/optionName&gt;&#xD;
+      &lt;value&gt;Case folder id&lt;/value&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@visibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@helpText&lt;/optionName&gt;&#xD;
+      &lt;value&gt;&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@labelVisibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;SHOW&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@baseTextDirection&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;placeholder&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionEnabled&lt;/optionName&gt;&#xD;
+      &lt;value&gt;false&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionService&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionDelay&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;validationRegEx&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textInputType&lt;/optionName&gt;&#xD;
+      &lt;value&gt;text&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;maxLength&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textSize&lt;/optionName&gt;&#xD;
+      &lt;value&gt;default&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;viewUUID&gt;64.d109fc11-3729-396e-bf94-d748d1967596&lt;/viewUUID&gt;&#xD;
+    &lt;binding&gt;tw.local.caseRef.caseFolderId&lt;/binding&gt;&#xD;
+  &lt;/layoutItem&gt;&#xD;
+  &lt;layoutItem xsi:type="ViewRef" version="8010"&gt;&#xD;
+    &lt;layoutItemId&gt;Text1&lt;/layoutItemId&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@label&lt;/optionName&gt;&#xD;
+      &lt;value&gt;Case title&lt;/value&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@visibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@helpText&lt;/optionName&gt;&#xD;
+      &lt;value&gt;&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@labelVisibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;SHOW&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@baseTextDirection&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;placeholder&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionEnabled&lt;/optionName&gt;&#xD;
+      &lt;value&gt;false&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionService&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;autocompletionDelay&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;validationRegEx&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textInputType&lt;/optionName&gt;&#xD;
+      &lt;value&gt;text&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;maxLength&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;textSize&lt;/optionName&gt;&#xD;
+      &lt;value&gt;default&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;viewUUID&gt;64.d109fc11-3729-396e-bf94-d748d1967596&lt;/viewUUID&gt;&#xD;
+    &lt;binding&gt;tw.local.caseRef.caseTitle&lt;/binding&gt;&#xD;
+  &lt;/layoutItem&gt;&#xD;
+  &lt;layoutItem xsi:type="ViewRef" version="8560"&gt;&#xD;
+    &lt;layoutItemId&gt;OK_1&lt;/layoutItemId&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@label&lt;/optionName&gt;&#xD;
+      &lt;value&gt;OK&lt;/value&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@helpText&lt;/optionName&gt;&#xD;
+      &lt;value&gt;&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@visibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@labelVisibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;SHOW&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@baseTextDirection&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;iconUrl&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;iconDescription&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;allowMultipleClicks&lt;/optionName&gt;&#xD;
+      &lt;value&gt;false&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;buttonColor&lt;/optionName&gt;&#xD;
+      &lt;value&gt;primary&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;buttonSize&lt;/optionName&gt;&#xD;
+      &lt;value&gt;default&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;viewUUID&gt;64.7d87b78a-a67b-3084-ad5f-edf42439ef26&lt;/viewUUID&gt;&#xD;
+  &lt;/layoutItem&gt;&#xD;
+  &lt;layoutItem xsi:type="ViewRef" version="8560"&gt;&#xD;
+    &lt;layoutItemId&gt;Button1&lt;/layoutItemId&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@label&lt;/optionName&gt;&#xD;
+      &lt;value&gt;Postpone&lt;/value&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@visibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@helpText&lt;/optionName&gt;&#xD;
+      &lt;value&gt;&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@labelVisibility&lt;/optionName&gt;&#xD;
+      &lt;value&gt;SHOW&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;@baseTextDirection&lt;/optionName&gt;&#xD;
+      &lt;value&gt;DEFAULT&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;iconUrl&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;iconDescription&lt;/optionName&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;allowMultipleClicks&lt;/optionName&gt;&#xD;
+      &lt;value&gt;false&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;buttonColor&lt;/optionName&gt;&#xD;
+      &lt;value&gt;primary&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;configData&gt;&#xD;
+      &lt;optionName&gt;buttonSize&lt;/optionName&gt;&#xD;
+      &lt;value&gt;default&lt;/value&gt;&#xD;
+      &lt;valueType&gt;static&lt;/valueType&gt;&#xD;
+    &lt;/configData&gt;&#xD;
+    &lt;viewUUID&gt;64.7d87b78a-a67b-3084-ad5f-edf42439ef26&lt;/viewUUID&gt;&#xD;
+  &lt;/layoutItem&gt;&#xD;
+&lt;/layout&gt;</layoutData>
+                <guid>c0c6caa8-9c62-4ff3-b03c-3476ca569881</guid>
+                <versionId>2028bae6-ffea-41ac-9b5a-0cf25f0ec20d</versionId>
+                <CoachNGBoundaryEvents>
+                    <lastModified isNull="true" />
+                    <lastModifiedBy isNull="true" />
+                    <coachNGBoundaryEventId>3029.1cc3ee2e-5ef7-4609-8039-6110695c593b</coachNGBoundaryEventId>
+                    <coachNGId>3028.555f9dae-2f2a-42d5-a87b-04982774e1c1</coachNGId>
+                    <seq>1</seq>
+                    <endStateId>5e79170e-10a5-46a1-a4d5-bc3a6b59cc9d</endStateId>
+                    <eventLabel>OK</eventLabel>
+                    <viewPath>OK_1</viewPath>
+                    <isValidateBoundaryEvent>false</isValidateBoundaryEvent>
+                    <fireValidation>0</fireValidation>
+                    <guid>84a9b4dc-60ba-4664-b261-995e4e6cc961</guid>
+                    <versionId>c960ff3f-1ec7-4b8b-80d6-0a8be06c0b4b</versionId>
+                </CoachNGBoundaryEvents>
+                <CoachNGBoundaryEvents>
+                    <lastModified isNull="true" />
+                    <lastModifiedBy isNull="true" />
+                    <coachNGBoundaryEventId>3029.07cfc142-b209-4c4d-9848-e185e0a2840c</coachNGBoundaryEventId>
+                    <coachNGId>3028.555f9dae-2f2a-42d5-a87b-04982774e1c1</coachNGId>
+                    <seq>2</seq>
+                    <endStateId>fe91ed8d-05ee-458e-8d2a-c0001f4461c5</endStateId>
+                    <eventLabel>Postpone</eventLabel>
+                    <viewPath>Button1</viewPath>
+                    <isValidateBoundaryEvent>false</isValidateBoundaryEvent>
+                    <fireValidation>0</fireValidation>
+                    <guid>a78983f1-d73c-4892-8f6c-261c28915379</guid>
+                    <versionId>88bbd773-3f31-4caf-add1-6d75ca34a03d</versionId>
+                </CoachNGBoundaryEvents>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.30991e42-36c8-4b78-805a-bf797f698549</processItemId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.b0d8295a-eda0-4b33-97dd-07147b3b04c1</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:371c3f1696de511b:2800efe0:156cf23d908:-7fd9</guid>
+            <versionId>34f8c031-1dea-46a1-aadf-bc9adf8f8552</versionId>
+            <layoutData x="506" y="102">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.b0d8295a-eda0-4b33-97dd-07147b3b04c1</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>6cee5b40-f7d6-42a0-804f-1e84101addca</guid>
+                <versionId>2a748f63-4079-484a-8123-a87880f01b31</versionId>
+            </TWComponent>
+        </item>
+        <startingProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="20" y="100">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="leftCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.3053cf8e-50d7-437e-9257-45bd0fb190d3</processLinkId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</fromProcessItemId>
+            <endStateId>fe91ed8d-05ee-458e-8d2a-c0001f4461c5</endStateId>
+            <toProcessItemId>2025.3fc7cdbc-50df-49b0-abfd-3b0b4d2bfe79</toProcessItemId>
+            <guid>c662f08c-c981-489d-bc26-495e1aa679ee</guid>
+            <versionId>290e6d80-f80d-4e99-b96b-0228a62ced88</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>true</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="bottomRight" portType="1" />
+            <toItemPort locationId="topRight" portType="2" />
+            <fromProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</fromProcessItemId>
+            <toProcessItemId>2025.3fc7cdbc-50df-49b0-abfd-3b0b4d2bfe79</toProcessItemId>
+        </link>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.2c58992f-1ad0-4390-bf72-92da37aa1835</processLinkId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.3fc7cdbc-50df-49b0-abfd-3b0b4d2bfe79</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</toProcessItemId>
+            <guid>1b229dc0-5571-4d8d-bad4-8f78c30851d5</guid>
+            <versionId>7451159a-8db7-4a90-babc-7aa90869700b</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="topLeft" portType="1" />
+            <toItemPort locationId="bottomLeft" portType="2" />
+            <fromProcessItemId>2025.3fc7cdbc-50df-49b0-abfd-3b0b4d2bfe79</fromProcessItemId>
+            <toProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</toProcessItemId>
+        </link>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.5bd933a3-791a-43e8-a8d5-1b7c746b1a61</processLinkId>
+            <processId>1.a7b0cca7-bfdd-4220-8192-594231dd035e</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</fromProcessItemId>
+            <endStateId>5e79170e-10a5-46a1-a4d5-bc3a6b59cc9d</endStateId>
+            <toProcessItemId>2025.30991e42-36c8-4b78-805a-bf797f698549</toProcessItemId>
+            <guid>9be04430-aa16-49f8-b60b-0eec06d1eb6c</guid>
+            <versionId>b66984b1-5cbf-44e2-b736-c5f034ab3aa3</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>true</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="leftCenter" portType="2" />
+            <fromProcessItemId>2025.5e871c3d-9d9d-4c33-9fcd-ba2b26ac4eb9</fromProcessItemId>
+            <toProcessItemId>2025.30991e42-36c8-4b78-805a-bf797f698549</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+

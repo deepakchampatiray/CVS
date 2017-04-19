@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.796b6ea8-6669-4b1a-87cc-694553ae95dd" name="File Uploader">
+        <lastModified>1487914692623</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <coachViewId>64.796b6ea8-6669-4b1a-87cc-694553ae95dd</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;5492149d-36c7-42fd-8960-f312db60c153&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;fb1eb00a-e508-4b72-8267-b6766f957397&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;8ae8cee3-445f-48ee-8bf6-d029710b35ff&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;div id="modal-container" title="File Uploader"&amp;gt;
+   &amp;lt;p&amp;gt;This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;a id="modal-btn" class="fileupload-btn" href="#"&amp;gt;Upload File&amp;lt;/a&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction isNull="true" />
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction> var cv = this;&#xD;
+ var modalContainer;&#xD;
+  var dialogOptions = {&#xD;
+ 		autoOpen: false,&#xD;
+ 		buttons: [&#xD;
+ 					{&#xD;
+ 						text: "Cancel",&#xD;
+					      icons: {&#xD;
+					        primary: "ui-icon-close"&#xD;
+					      },&#xD;
+					      click: function() {&#xD;
+					        $( this ).dialog( "close" );&#xD;
+					      }&#xD;
+ 					},&#xD;
+ 					{&#xD;
+ 						text: "Upload",&#xD;
+					      icons: {&#xD;
+					        primary: "ui-icon-transfer-e-w"&#xD;
+					      },&#xD;
+					      click: function() {&#xD;
+					        console.log("transferting file");&#xD;
+					        $( this ).dialog( "close" );&#xD;
+					      }&#xD;
+ 					}&#xD;
+ 				],&#xD;
+ 		show: 'puff',&#xD;
+ 		hide: 'puff', // Hide the dialog with 500ms fade effect&#xD;
+ 		modal: true, // Overlay on top of others&#xD;
+ 		title: 'File Upload'&#xD;
+ }&#xD;
+ &#xD;
+ require(["jquery", "jqueryui"], function($) {&#xD;
+ 	modalContainer = $('div#modal-container', cv.context.element);&#xD;
+ 	modalContainer.dialog(dialogOptions);&#xD;
+ 	&#xD;
+ 	$('a#modal-btn', cv.context.element).on("click", function() {&#xD;
+ 		modalContainer.dialog("open");&#xD;
+ 	});&#xD;
+ });</viewJsFunction>
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>guid:de46dc44c9507c59:684b2ab6:15a693ab5a9:-7fff</guid>
+        <versionId>f1f75eac-10fb-4762-81c9-49e877db6170</versionId>
+        <inlineScript name="Inline Javascript">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.ad3774c1-fc65-42d0-8928-baafe1bac5bb</coachViewInlineScriptId>
+            <coachViewId>64.796b6ea8-6669-4b1a-87cc-694553ae95dd</coachViewId>
+            <scriptType>JS</scriptType>
+            <scriptBlock>/*&#xD;
+@dojoConfigUpdateStart&#xD;
+dojoConfig.packages.push({&#xD;
+	name: 'jquery',&#xD;
+	location: '//code.jquery.com/',&#xD;
+	main: 'jquery-1.12.4.min'&#xD;
+});&#xD;
+dojoConfig.packages.push({&#xD;
+	name: 'jqueryui',&#xD;
+	location: '//code.jquery.com/ui/1.12.1/',&#xD;
+	main: 'jquery-ui.min'&#xD;
+});&#xD;
+@dojoConfigUpdateEnd&#xD;
+*/</scriptBlock>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>98ea5b54-c14c-42fc-beba-79472436f8a6</guid>
+            <versionId>e1fc467a-4d3b-474f-97d6-7ee38161c25c</versionId>
+        </inlineScript>
+        <inlineScript name="Header HTML">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewInlineScriptId>68.ce7d2960-8f67-4bc2-bb09-43c5c7f1a512</coachViewInlineScriptId>
+            <coachViewId>64.796b6ea8-6669-4b1a-87cc-694553ae95dd</coachViewId>
+            <scriptType>HTML</scriptType>
+            <scriptBlock>&lt;link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" /&gt;</scriptBlock>
+            <seq>1</seq>
+            <description isNull="true" />
+            <guid>41f7b89c-2892-4757-a324-1f90139d92ce</guid>
+            <versionId>361d9f14-af2d-48bc-b454-46899b831441</versionId>
+        </inlineScript>
+    </coachView>
+</teamworks>
+

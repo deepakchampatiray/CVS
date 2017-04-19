@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.bc5aaef0-c8c9-4558-8323-1e674cf982f0" name="Progress Bar Test">
+        <lastModified>1489603456450</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <processId>1.bc5aaef0-c8c9-4558-8323-1e674cf982f0</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.79eca95a-1923-4a16-b9cd-b202c9f79f86</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>10</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef>ae31606f-3de3-4bd3-873d-45833be340bc/24.da7e4d23-78cb-4483-98ed-b9c238308a03</participantRef>
+        <exposedType>2</exposedType>
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength isNull="true" />
+        <mobileReady>true</mobileReady>
+        <sboSyncEnabled>true</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>false</isSecured>
+        <description isNull="true" />
+        <guid>guid:aea4aedfbd691198:4d4bc3e9:15a9cf3a956:-7772</guid>
+        <versionId>fdd1026f-ee1e-43d4-a679-c9faf1705911</versionId>
+        <dependencySummary isNull="true" />
+        <processVariable name="progressBarValue">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processVariableId>2056.e0da8b75-ca7b-46da-8568-fa37e0a4ce30</processVariableId>
+            <description isNull="true" />
+            <processId>1.bc5aaef0-c8c9-4558-8323-1e674cf982f0</processId>
+            <namespace>2</namespace>
+            <seq>1</seq>
+            <isArrayOf>false</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d</classId>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <guid>de1f858e-383d-49b7-941e-9850b02b830a</guid>
+            <versionId>1ede6622-6c4a-4573-80ea-dab4500c7da9</versionId>
+        </processVariable>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.02a67705-e74c-47ae-a702-e0e6ce313ac4</processItemId>
+            <processId>1.bc5aaef0-c8c9-4558-8323-1e674cf982f0</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.6acf2aa4-d305-4495-ae06-2b8b0dee7ed4</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:aea4aedfbd691198:4d4bc3e9:15a9cf3a956:-7771</guid>
+            <versionId>de8ad381-6669-4f21-8c02-fba70a5534cd</versionId>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.6acf2aa4-d305-4495-ae06-2b8b0dee7ed4</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>104d3e94-2d32-43fc-a470-71c932b84139</guid>
+                <versionId>e79aed88-195a-4592-b87d-3b32bf594418</versionId>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.79eca95a-1923-4a16-b9cd-b202c9f79f86</processItemId>
+            <processId>1.bc5aaef0-c8c9-4558-8323-1e674cf982f0</processId>
+            <name>CoachFlowWrapper</name>
+            <tWComponentName>CoachFlow</tWComponentName>
+            <tWComponentId>3032.35b49b43-079c-4395-9644-c5c329b1664f</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:aea4aedfbd691198:4d4bc3e9:15a9cf3a956:-7770</guid>
+            <versionId>fe1fa99d-4c53-4864-8eb2-a1b4bbf78ca4</versionId>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent />
+        </item>
+        <startingProcessItemId>2025.79eca95a-1923-4a16-b9cd-b202c9f79f86</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="0" y="0">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="rightCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <coachflow>
+            <ns16:definitions xmlns:ns16="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns2="http://www.ibm.com/bpm/Extensions" xmlns:ns3="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process" xmlns:ns4="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/wle" xmlns:ns5="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/case" xmlns:ns6="http://www.ibm.com/xmlns/bpmnx/20100524/v1/BusinessVocabulary" xmlns:ns7="http://www.omg.org/spec/DD/20100524/DI" xmlns:ns8="http://www.omg.org/spec/DD/20100524/DC" xmlns:ns9="http://www.omg.org/spec/BPMN/20100524/BPMNDI" xmlns:ns10="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/team" xmlns:ns11="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/trackinggroup" xmlns:ns12="http://www.ibm.com/xmlns/prod/bpm/graph" xmlns:ns13="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/process/auth" xmlns:ns14="http://www.ibm.com/xmlns/prod/bpm/bpmn/ext/extservice" xmlns:ns15="http://www.ibm.com/xmlns/links" xmlns:ns17="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns18="http://www.ibm.com/xmlns/tagging" xmlns:ns19="http://www.ibm.com/bpm/uitheme" xmlns:ns20="http://www.ibm.com/bpm/coachview" id="413e9fc6-7aad-4ccb-a3d7-af892886b9fa" targetNamespace="" expressionLanguage="http://www.ibm.com/xmlns/prod/bpm/expression-lang/javascript">
+                <ns16:globalUserTask name="Progress Bar Test" id="1.bc5aaef0-c8c9-4558-8323-1e674cf982f0">
+                    <ns16:documentation />
+                    <ns16:extensionElements>
+                        <ns3:userTaskImplementation id="dcf93a1d-2f10-433c-bb5b-204af9fb3d68">
+                            <ns16:startEvent name="Start" id="ea6445e2-54fa-4522-921a-6f892847b2ca">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="50" y="200" width="24" height="24" color="#F8F8F8" />
+                                </ns16:extensionElements>
+                                <ns16:outgoing>2027.f4515115-6c06-46ae-8419-906bce1d7c79</ns16:outgoing>
+                            </ns16:startEvent>
+                            <ns3:formTask name="Coach" id="2025.0e381eb7-8752-495a-a1f3-bdbfd745900f">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="335" y="177" width="95" height="70" />
+                                </ns16:extensionElements>
+                                <ns16:incoming>2027.f4515115-6c06-46ae-8419-906bce1d7c79</ns16:incoming>
+                                <ns16:outgoing>2027.df5bf0e7-18fc-4198-832c-8a8db3112c71</ns16:outgoing>
+                                <ns16:outgoing>2027.90762ee7-a8c8-4014-819b-9ec94a0d04a3</ns16:outgoing>
+                                <ns3:formDefinition>
+                                    <ns17:coachDefinition>
+                                        <ns17:layout>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>92d7e147-e75a-4646-8fbd-4014cb595a58</ns17:id>
+                                                <ns17:layoutItemId>Progress_Bar1</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>eb8c7f01-7c54-4fc0-8e1b-6f645b23580e</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Progress Bar Label</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>d59b9ac8-4d2b-43a6-883e-5c042ed8d815</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>33c8cf00-c900-4b91-8dd5-62f808e6fa1a</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.a2c4977c-c622-422d-a766-3b1bc2f6fb0e</ns17:viewUUID>
+                                                <ns17:binding>tw.local.progressBarValue</ns17:binding>
+                                            </ns17:layoutItem>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>03be1081-1f4a-4106-85cc-18530579de4a</ns17:id>
+                                                <ns17:layoutItemId>Integer1</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>2b49b02d-bd75-462b-844c-8b1803edfb81</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Integer</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>5d89783b-dd8a-473f-82cd-b38dca8417aa</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>5d4a57ab-5d48-4569-813a-619ff4a1e4b8</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.ff572ddb-42fa-35ce-acb1-33d8412ae2cb</ns17:viewUUID>
+                                                <ns17:binding>tw.local.progressBarValue</ns17:binding>
+                                            </ns17:layoutItem>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>b2520a08-20f2-490e-8f08-183cb40ba087</ns17:id>
+                                                <ns17:layoutItemId>Integer2</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>983d07d2-e0c0-4a04-8f7d-a2023992b5a1</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Integer 2</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>3f60a67e-d7f4-436f-8e9e-5799ea7704bf</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>561c6193-5914-456b-83c6-4ae4cf429ce4</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.ff572ddb-42fa-35ce-acb1-33d8412ae2cb</ns17:viewUUID>
+                                                <ns17:binding>tw.local.progressBarValue</ns17:binding>
+                                            </ns17:layoutItem>
+                                            <ns17:layoutItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns17:ViewRef" version="8550">
+                                                <ns17:id>1436a3a3-7e57-4156-875d-a684d93f6468</ns17:id>
+                                                <ns17:layoutItemId>Button1</ns17:layoutItemId>
+                                                <ns17:configData>
+                                                    <ns17:id>ecd49577-6c0a-4b31-85ad-f7138b428f6a</ns17:id>
+                                                    <ns17:optionName>@label</ns17:optionName>
+                                                    <ns17:value>Button</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>02453680-8a27-49a6-8d31-74a45e490379</ns17:id>
+                                                    <ns17:optionName>@helpText</ns17:optionName>
+                                                    <ns17:value />
+                                                </ns17:configData>
+                                                <ns17:configData>
+                                                    <ns17:id>bd1cf0e5-419d-4a3f-8fb4-86be250d3d78</ns17:id>
+                                                    <ns17:optionName>@labelVisibility</ns17:optionName>
+                                                    <ns17:value>SHOW</ns17:value>
+                                                </ns17:configData>
+                                                <ns17:viewUUID>64.7d87b78a-a67b-3084-ad5f-edf42439ef26</ns17:viewUUID>
+                                            </ns17:layoutItem>
+                                        </ns17:layout>
+                                    </ns17:coachDefinition>
+                                </ns3:formDefinition>
+                            </ns3:formTask>
+                            <ns16:endEvent name="End" id="0f5227b5-a35f-4785-9efb-d18ae8c6ab83">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="700" y="200" width="24" height="24" color="#F8F8F8" />
+                                    <ns3:navigationInstructions>
+                                        <ns3:targetType>Default</ns3:targetType>
+                                    </ns3:navigationInstructions>
+                                </ns16:extensionElements>
+                            </ns16:endEvent>
+                            <ns16:sequenceFlow sourceRef="ea6445e2-54fa-4522-921a-6f892847b2ca" targetRef="2025.0e381eb7-8752-495a-a1f3-bdbfd745900f" name="To Coach" id="2027.f4515115-6c06-46ae-8419-906bce1d7c79">
+                                <ns16:extensionElements>
+                                    <ns12:linkVisualInfo>
+                                        <ns12:sourcePortLocation>rightCenter</ns12:sourcePortLocation>
+                                        <ns12:targetPortLocation>leftCenter</ns12:targetPortLocation>
+                                        <ns12:showLabel>false</ns12:showLabel>
+                                        <ns12:showCoachControlLabel>false</ns12:showCoachControlLabel>
+                                        <ns12:labelPosition>0.0</ns12:labelPosition>
+                                        <ns12:saveExecutionContext>false</ns12:saveExecutionContext>
+                                    </ns12:linkVisualInfo>
+                                </ns16:extensionElements>
+                            </ns16:sequenceFlow>
+                            <ns16:dataObject itemSubjectRef="itm.12.3fa0d7a0-828a-4d60-99cc-db5ed143fc2d" isCollection="false" name="progressBarValue" id="2056.e0da8b75-ca7b-46da-8568-fa37e0a4ce30">
+                                <ns16:extensionElements>
+                                    <ns3:defaultValue useDefault="true">5</ns3:defaultValue>
+                                </ns16:extensionElements>
+                            </ns16:dataObject>
+                            <ns16:sequenceFlow sourceRef="2025.0e381eb7-8752-495a-a1f3-bdbfd745900f" targetRef="2025.2edbcdad-a296-40dd-8cda-dd842dba6744" name="To End" id="2027.df5bf0e7-18fc-4198-832c-8a8db3112c71">
+                                <ns16:extensionElements>
+                                    <ns3:sequenceFlowImplementation sboSyncEnabled="true" />
+                                    <ns12:linkVisualInfo>
+                                        <ns12:sourcePortLocation>rightCenter</ns12:sourcePortLocation>
+                                        <ns12:targetPortLocation>bottomCenter</ns12:targetPortLocation>
+                                        <ns12:showLabel>false</ns12:showLabel>
+                                        <ns12:showCoachControlLabel>true</ns12:showCoachControlLabel>
+                                        <ns12:labelPosition>0.0</ns12:labelPosition>
+                                        <ns12:saveExecutionContext>true</ns12:saveExecutionContext>
+                                    </ns12:linkVisualInfo>
+                                    <ns3:coachEventBinding id="561eb68a-22bd-44bb-85be-8f810faf76c7">
+                                        <ns3:coachEventPath>Progress_Bar1</ns3:coachEventPath>
+                                    </ns3:coachEventBinding>
+                                </ns16:extensionElements>
+                            </ns16:sequenceFlow>
+                            <ns16:sequenceFlow sourceRef="2025.0e381eb7-8752-495a-a1f3-bdbfd745900f" targetRef="2025.2edbcdad-a296-40dd-8cda-dd842dba6744" name="To Coach" id="2027.90762ee7-a8c8-4014-819b-9ec94a0d04a3">
+                                <ns16:extensionElements>
+                                    <ns12:linkVisualInfo>
+                                        <ns12:sourcePortLocation>topCenter</ns12:sourcePortLocation>
+                                        <ns12:targetPortLocation>leftCenter</ns12:targetPortLocation>
+                                        <ns12:showLabel>false</ns12:showLabel>
+                                        <ns12:showCoachControlLabel>true</ns12:showCoachControlLabel>
+                                        <ns12:labelPosition>0.0</ns12:labelPosition>
+                                        <ns12:saveExecutionContext>false</ns12:saveExecutionContext>
+                                    </ns12:linkVisualInfo>
+                                    <ns3:coachEventBinding id="6dc35e46-0368-48bd-8ae8-12b8bdf4e510">
+                                        <ns3:coachEventPath>Button1</ns3:coachEventPath>
+                                    </ns3:coachEventBinding>
+                                </ns16:extensionElements>
+                            </ns16:sequenceFlow>
+                            <ns16:intermediateThrowEvent name="Stay on page" id="2025.2edbcdad-a296-40dd-8cda-dd842dba6744">
+                                <ns16:extensionElements>
+                                    <ns12:nodeVisualInfo x="567" y="63" width="24" height="24" />
+                                    <ns3:navigationInstructions>
+                                        <ns3:targetType>Default</ns3:targetType>
+                                    </ns3:navigationInstructions>
+                                </ns16:extensionElements>
+                                <ns16:incoming>2027.90762ee7-a8c8-4014-819b-9ec94a0d04a3</ns16:incoming>
+                                <ns16:incoming>2027.df5bf0e7-18fc-4198-832c-8a8db3112c71</ns16:incoming>
+                                <ns3:stayOnPageEventDefinition />
+                            </ns16:intermediateThrowEvent>
+                            <ns3:htmlHeaderTag id="dd1a5ff2-af68-40a0-b00f-69d3916ca6c0">
+                                <ns3:tagName>viewport</ns3:tagName>
+                                <ns3:content>width=device-width,initial-scale=1.0</ns3:content>
+                                <ns3:enabled>true</ns3:enabled>
+                            </ns3:htmlHeaderTag>
+                        </ns3:userTaskImplementation>
+                        <ns3:mobileReady>true</ns3:mobileReady>
+                        <ns3:participantRef>24.da7e4d23-78cb-4483-98ed-b9c238308a03</ns3:participantRef>
+                        <ns3:exposedAs>StartableService</ns3:exposedAs>
+                        <ns16:exposedInApp>true</ns16:exposedInApp>
+                    </ns16:extensionElements>
+                    <ns16:ioSpecification>
+                        <ns16:inputSet id="_0ed24a22-639e-43f9-b608-3010d6c5f0fe" />
+                        <ns16:outputSet id="_394bbd89-2756-40b1-b6f7-d3b659b8264a" />
+                    </ns16:ioSpecification>
+                </ns16:globalUserTask>
+            </ns16:definitions>
+        </coachflow>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.43f48e82-8731-44f6-b9fc-df1002202b67</processLinkId>
+            <processId>1.bc5aaef0-c8c9-4558-8323-1e674cf982f0</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.79eca95a-1923-4a16-b9cd-b202c9f79f86</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.02a67705-e74c-47ae-a702-e0e6ce313ac4</toProcessItemId>
+            <guid>50a70aba-efe7-4682-af75-1168b797ec86</guid>
+            <versionId>ad690961-605a-436b-854b-5594b8ac6636</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="rightCenter" portType="2" />
+            <fromProcessItemId>2025.79eca95a-1923-4a16-b9cd-b202c9f79f86</fromProcessItemId>
+            <toProcessItemId>2025.02a67705-e74c-47ae-a702-e0e6ce313ac4</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+

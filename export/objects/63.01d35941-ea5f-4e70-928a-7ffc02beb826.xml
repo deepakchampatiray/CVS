@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <projectDefaults id="63.01d35941-ea5f-4e70-928a-7ffc02beb826" name="Process App Settings">
+        <lastModified>1488694778855</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <projectDefaultsId>63.01d35941-ea5f-4e70-928a-7ffc02beb826</projectDefaultsId>
+        <description isNull="true" />
+        <guid>8ee3470d-d55d-44d0-9120-e4e39986d319</guid>
+        <versionId>7a890870-3a62-4f5a-a443-d3dd74fb919b</versionId>
+        <participantRef isNull="true" />
+        <defaultXslRef>ae31606f-3de3-4bd3-873d-45833be340bc/61.140920b1-a53c-4d72-b6bb-60776f49f7f2</defaultXslRef>
+        <defaultCssRef>ae31606f-3de3-4bd3-873d-45833be340bc/61.aabe9f91-df4b-43db-857c-41dbed4820a3</defaultCssRef>
+        <defaultTheme>/72.8817f8fc-dd21-4286-8ff6-7e14081aae0c</defaultTheme>
+        <themeVersion isNull="true" />
+        <defaultJsRefs isNull="true" />
+        <isWbmEnabled>false</isWbmEnabled>
+        <namespace>http://CVS</namespace>
+        <isIidOptimized>true</isIidOptimized>
+        <isQueueBypass>1</isQueueBypass>
+    </projectDefaults>
+</teamworks>
+

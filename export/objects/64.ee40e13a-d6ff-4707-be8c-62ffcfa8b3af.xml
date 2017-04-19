@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.ee40e13a-d6ff-4707-be8c-62ffcfa8b3af" name="CVS Input Text">
+        <lastModified>1487273847657</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <coachViewId>64.ee40e13a-d6ff-4707-be8c-62ffcfa8b3af</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;68ceb43b-9aec-4aec-809a-1343fc465e87&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;d5b1d815-0151-4063-826a-3a89710a1134&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;07b74fec-3356-428d-8dd9-0ea846c200cf&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;input type="text" name="input" ng-model="this.tw.local.name" ng-pattern="" required ng-trim="false"&amp;gt; 
+&amp;lt;pre&amp;gt;
+ {{this | json}}
+ &amp;lt;/pre&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>false</isMobileReady>
+        <loadJsFunction>console.log(this, this.context.binding.get("textValue"));&#xD;
+tw = {};&#xD;
+tw.local = {};&#xD;
+tw.local.name = this.context.binding.get("value");&#xD;
+&#xD;
+this.tw = tw;&#xD;
+&#xD;
+this.viewid = this.context.viewid;&#xD;
+</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction>console.log(this, this.context.binding.get("value"), this.tw.local.name);&#xD;
+</viewJsFunction>
+        <changeJsFunction> console.log("Change Called", this)</changeJsFunction>
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>guid:4ab8b7aa13e8d504:-6a1dfebe:15502c5bb5d:-7fff</guid>
+        <versionId>1ba3325a-3521-4acf-8ca9-f994de7118a2</versionId>
+        <bindingType name="textValue">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.4fa86f56-ff28-4483-b310-97a96bbf913d</coachViewBindingTypeId>
+            <coachViewId>64.ee40e13a-d6ff-4707-be8c-62ffcfa8b3af</coachViewId>
+            <isList>false</isList>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>1d8f296c-1373-4777-bb59-94a0ba45b647</guid>
+            <versionId>4ccc1cc5-c5eb-4d9a-965a-cbcaeb6a3d66</versionId>
+        </bindingType>
+        <configOption name="validationPattern">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.ef644c36-62e7-4298-b91f-82ed474208dd</coachViewConfigOptionId>
+            <coachViewId>64.ee40e13a-d6ff-4707-be8c-62ffcfa8b3af</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>b5a5d9cc-8c7a-4098-98a6-bbb98933f9c5</guid>
+            <versionId>23513d90-8970-43f6-a008-dbb33c0d27bb</versionId>
+        </configOption>
+    </coachView>
+</teamworks>
+

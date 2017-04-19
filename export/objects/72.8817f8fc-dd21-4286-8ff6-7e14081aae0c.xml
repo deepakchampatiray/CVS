@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <uiTheme id="72.8817f8fc-dd21-4286-8ff6-7e14081aae0c" name="Bootstrap Theme">
+        <lastModified>1488047074332</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <uithemeId>72.8817f8fc-dd21-4286-8ff6-7e14081aae0c</uithemeId>
+        <themeContent>
+
+/* Date: 2015-12-21 */
+
+/* Theme_Level_Id is a metadata to indicate the theme level of this bpm theme. */ 
+/* This Id will be updated to match the one in the Default BPM Theme in your dependent System Toolkit when using the theme roller */
+// #Theme_Level_Id#fefea6ba-a80f-47ff-ba26-04ce06112015#Theme_Level_Id_End#
+
+/* The theme definitions are in LESS format: */
+/* @variableName:             value; */
+/* The value can be a specific value, a formula, another variable, or a combination of these types. */
+
+/* Global Variables*/
+
+/* Neutral colors */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010010","type":"color"}|DE|
+@bpm-neutral-darkest:                      darken(@bpm-neutral-dark, 10%);               //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010020","type":"color"}|DE|
+@bpm-neutral-darker:                       darken(@bpm-neutral-dark, 5%);                //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010030","type":"color"}|DE|
+@bpm-neutral-dark:                         #303030;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010040","type":"color"}|DE|
+@bpm-neutral:                              #464545;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010050","type":"color"}|DE|
+@bpm-neutral-light:                        #999;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010060","type":"color"}|DE|
+@bpm-neutral-lighter:                      #EBEBEB;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010070","type":"color"}|DE|
+@bpm-neutral-lightest:                     #f7f7f9;                                      //|EEM|
+
+/* Brand colors */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010080","type":"color"}|DE|
+@bpm-color-primary:                        #375a7f;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010090","type":"color"}|DE|
+@bpm-color-info:                           #3498DB;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010100","type":"color"}|DE|
+@bpm-color-success:                        #00bc8c;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010110","type":"color"}|DE|
+@bpm-color-warning:                        #F39C12;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010120","type":"color"}|DE|
+@bpm-color-alert:                          #E74C3C;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010130","type":"color"}|DE|
+@bpm-color-alert-light:                    lighten(@bpm-color-alert, 5%);                //|EEM|
+
+/* Scaffolding */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010140","type":"color"}|DE|
+@bpm-body-bg:                              #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010150","type":"color"}|DE|
+@bpm-text-color:                           #000203;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010160","type":"color"}|DE|
+@bpm-link-color:                           @bpm-color-primary;                           //|EEM|
+@bpm-link-hover-color:                     darken( @bpm-link-color, 15%);
+@bpm-link-hover-decoration:                underline;
+
+/* Typography */
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010170","type":"font-family"}|DE|
+@bpm-font-family-sans-serif:               "Helvetica Neue", Helvetica, Arial, sans-serif; //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020010","type":"font-family"}|DE|
+@bpm-font-family-serif:                    Georgia, "Times New Roman", Times, serif;       //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020020","type":"font-family"}|DE|
+@bpm-font-family-monospace:                "Courier New", Courier, monospace;              //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020030","type":"font-family"}|DE|
+@bpm-font-family-base:                     @bpm-font-family-sans-serif;                    //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010180","type":"text"}|DE|
+@bpm-font-size-base:                       14px;                                           //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020040","type":"text"}|DE|
+@bpm-font-size-large:                      @bpm-font-size-base*1.25;                       //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020050","type":"text"}|DE|
+@bpm-font-size-small:                      @bpm-font-size-base/1.25;                       //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020060","type":"text"}|DE|
+@bpm-font-size-h1:                         @bpm-font-size-h2*1.25;                         //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020070","type":"text"}|DE|
+@bpm-font-size-h2:                         @bpm-font-size-h3*1.25;                         //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020080","type":"text"}|DE|
+@bpm-font-size-h3:                         @bpm-font-size-h4*1.25;                         //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020090","type":"text"}|DE|
+@bpm-font-size-h4:                         @bpm-font-size-large;                           //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020100","type":"text"}|DE|
+@bpm-font-size-h5:                         @bpm-font-size-base;                            //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_FONTS","order":"020110","type":"text"}|DE|
+@bpm-font-size-h6:                         @bpm-font-size-small;                           //|EEM|
+                   
+//-- Unit-less `line-height` for use in components such as buttons.
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010190","type":"text"}|DE|
+@bpm-line-height-base:                     1.5;                                            //|EEM|
+                                                                                           //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010200","type":"text"}|DE|
+@bpm-line-height-small:                    1.6;                                            //|EEM|
+@bpm-line-height-large:                    1.4;
+
+//-- Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, and so on.
+@bpm-line-height-computed:                 floor((@bpm-font-size-base * @bpm-line-height-base)); // ~20px
+
+@bpm-headings-font-family:                 inherit;
+@bpm-headings-font-weight:                 normal;
+@bpm-headings-line-height:                 2;
+@bpm-headings-color:                       inherit;
+
+/* Grid */
+@bpm-half-gutter-width:                    5px;
+
+/* Components */
+// Default margin for any coach view
+
+@bpm-margin-top:                           6px;     
+@bpm-margin-bottom:                        6px;     
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010210","type":"text"}|DE|
+@bpm-padding-base-vertical:                6px;                                          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010220","type":"text"}|DE|
+@bpm-padding-base-horizontal:              12px;                                         //|EEM|
+@bpm-padding-large-vertical:               10px;
+@bpm-padding-large-horizontal:             16px;
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010230","type":"text"}|DE|
+@bpm-padding-small-vertical:               5px;                                          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010240","type":"text"}|DE|
+@bpm-padding-small-horizontal:             10px;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010250","type":"text"}|DE|
+@bpm-border-radius-base:                   0px;                                          //|EEM|
+@bpm-border-radius-large:                  0px;
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010260","type":"text"}|DE|
+@bpm-border-radius-small:                  0px;                                          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010270","type":"color"}|DE|
+@bpm-active-color:                         #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010280","type":"color"}|DE|
+@bpm-active-bg:                            @bpm-color-primary;                           //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010290","type":"color"}|DE|
+@bpm-list-group-bg:                        @bpm-body-bg;                                 //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BASE_SETTINGS","order":"010300","type":"color"}|DE|
+@bpm-list-group-border:                    @bpm-neutral-lightest;                        //|EEM|
+
+/* Form inputs */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030010","type":"font-family"}|DE|
+@bpm-label-font-family:                    @bpm-font-family-base;                        //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030020","type":"font-weight"}|DE|
+@bpm-label-font-weight:                    bold;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030030","type":"color"}|DE|
+@bpm-label-text-color:                     inherit;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030040","type":"color"}|DE|
+@bpm-input-bg:                             #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030050","type":"color"}|DE|
+@bpm-input-bg-disabled:                    @bpm-neutral-lightest;                       //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030060","type":"color"}|DE|
+@bpm-input-color:                          @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030070","type":"color"}|DE|
+@bpm-input-border:                         @bpm-neutral-dark;                            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030080","type":"text"}|DE|
+@bpm-input-border-radius-base:             @bpm-border-radius-base;                      //|EEM|
+@bpm-input-border-radius-large:            @bpm-border-radius-large;
+@bpm-input-border-radius-small:            @bpm-border-radius-small;
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_FORM_SETTINGS","order":"030070","type":"color"}|DE|
+@bpm-input-border-focus:                   lighten(@bpm-color-primary, 25%);             //|EEM|
+@bpm-input-color-placeholder:              @bpm-neutral-dark;
+@bpm-state-alert-text:                     #ad1625;
+@bpm-state-alert-bg:                       @bpm-color-alert-light;
+@bpm-state-alert-border:                   @bpm-color-alert-light;
+
+/* Button */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040010","type":"color"}|DE|
+@bpm-btn-primary-color:                    #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040020","type":"color"}|DE|
+@bpm-btn-primary-bg:                       @bpm-color-primary;                           //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040030","type":"color"}|DE|
+@bpm-btn-primary-border:                   darken( @bpm-btn-primary-bg, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040040","type":"color"}|DE|
+@bpm-btn-alternate-color:                  #444;                                  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040050","type":"color"}|DE|
+@bpm-btn-alternate-bg:                     #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040060","type":"color"}|DE|
+@bpm-btn-alternate-border:                 darken(@bpm-neutral-light, 5%);               //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040070","type":"color"}|DE|
+@bpm-btn-success-color:                    #fff;                                    //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040080","type":"color"}|DE|
+@bpm-btn-success-bg:                       @bpm-color-success;                           //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040090","type":"color"}|DE|
+@bpm-btn-success-border:                   darken( @bpm-btn-success-bg, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040100","type":"color"}|DE|
+@bpm-btn-info-color:                       #fff;                                  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040110","type":"color"}|DE|
+@bpm-btn-info-bg:                          @bpm-color-info;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040120","type":"color"}|DE|
+@bpm-btn-info-border:                      darken( @bpm-btn-info-bg, 5%);                //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040130","type":"color"}|DE|
+@bpm-btn-warning-color:                    #fff;                                   //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040140","type":"color"}|DE|
+@bpm-btn-warning-bg:                       @bpm-color-warning;                           //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040150","type":"color"}|DE|
+@bpm-btn-warning-border:                   darken( @bpm-btn-warning-bg, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040160","type":"color"}|DE|
+@bpm-btn-alert-color:                      #fff;                                   //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040170","type":"color"}|DE|
+@bpm-btn-alert-bg:                         @bpm-color-alert;                             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040180","type":"color"}|DE|
+@bpm-btn-alert-border:                     darken( @bpm-btn-alert-bg, 5%);               //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_BUTTONS","order":"040190","type":"font-weight"}|DE|
+@bpm-btn-font-weight:                      normal;                                       //|EEM|
+
+/* Switch */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050010","type":"color"}|DE|
+@bpm-switch-primary-bg:                    darken( @bpm-color-primary, 5%);              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050020","type":"color"}|DE|
+@bpm-switch-primary-color:                 #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050030","type":"color"}|DE|
+@bpm-switch-alternate-bg:                  #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050040","type":"color"}|DE|
+@bpm-switch-alternate-color:               @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050050","type":"color"}|DE|
+@bpm-switch-success-bg:                    lighten( @bpm-color-success, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050060","type":"color"}|DE|
+@bpm-switch-success-color:                 @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050070","type":"color"}|DE|
+@bpm-switch-info-bg:                       lighten( @bpm-color-info, 5%);                //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050080","type":"color"}|DE|
+@bpm-switch-info-color:                    @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050090","type":"color"}|DE|
+@bpm-switch-warning-bg:                    lighten( @bpm-color-warning, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050100","type":"color"}|DE|
+@bpm-switch-warning-color:                 @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050110","type":"color"}|DE|
+@bpm-switch-alert-bg:                      darken( @bpm-color-alert-light, 5%);          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050120","type":"color"}|DE|
+@bpm-switch-alert-color:                   @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050130","type":"color"}|DE|
+@bpm-switch-border:                        @bpm-neutral-dark;                            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_CHECKBOX_SWITCH","order":"050140","type":"text"}|DE|
+@bpm-switch-border-radius:                 @bpm-border-radius-base;                      //|EEM|
+
+/* Section */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060010","type":"text"}|DE|
+@bpm-section-font-size-base:               @bpm-font-size-h3;                            //|EEM|
+@bpm-section-font-size-small:              @bpm-font-size-h4;
+@bpm-section-font-size-large:              @bpm-font-size-h2;
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060020","type":"color"}|DE|
+@bpm-section-header-primary-color:         #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060030","type":"color"}|DE|
+@bpm-section-header-primary-bg:            darken( @bpm-color-primary, 5%);              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060040","type":"color"}|DE|
+@bpm-section-header-primary-border:        darken( @bpm-section-header-primary-bg, 5%);  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060050","type":"color"}|DE|
+@bpm-section-header-alternate-color:       @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060060","type":"color"}|DE|
+@bpm-section-header-alternate-bg:          #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060070","type":"color"}|DE|
+@bpm-section-header-alternate-border:      @bpm-neutral-lighter;                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060080","type":"color"}|DE|
+@bpm-section-header-success-color:         @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060090","type":"color"}|DE|
+@bpm-section-header-success-bg:            lighten( @bpm-color-success, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060100","type":"color"}|DE|
+@bpm-section-header-success-border:        darken( @bpm-section-header-success-bg, 5%);  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060110","type":"color"}|DE|
+@bpm-section-header-info-color:            @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060120","type":"color"}|DE|
+@bpm-section-header-info-bg:               lighten( @bpm-color-info, 5%);                //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060130","type":"color"}|DE|
+@bpm-section-header-info-border:           darken( @bpm-section-header-info-bg, 5%);     //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060140","type":"color"}|DE|
+@bpm-section-header-warning-color:         @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060150","type":"color"}|DE|
+@bpm-section-header-warning-bg:            lighten( @bpm-color-warning, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060160","type":"color"}|DE|
+@bpm-section-header-warning-border:        darken( @bpm-section-header-warning-bg, 5%);  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060170","type":"color"}|DE|
+@bpm-section-header-alert-color:           @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060180","type":"color"}|DE|
+@bpm-section-header-alert-bg:              darken( @bpm-color-alert-light, 5%);          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060190","type":"color"}|DE|
+@bpm-section-header-alert-border:          darken( @bpm-section-header-alert-bg, 5%);    //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060200","type":"text"}|DE|
+@bpm-section-header-border-radius:         @bpm-border-radius-base;                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060210","type":"color"}|DE|
+@bpm-section-border:                       @bpm-neutral-lighter;                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_SECTION","order":"060220","type":"font-weight"}|DE|
+@bpm-section-header-weight:                bold;                                         //|EEM|
+
+/* Table  */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070010","type":"text"}|DE|
+@bpm-table-cell-padding:                   8px;                                          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070020","type":"color"}|DE|
+@bpm-table-bg:                             transparent;                                  //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070030","type":"color"}|DE|
+@bpm-table-bg-accent:                      #f5f9f9;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070040","type":"color"}|DE|
+@bpm-table-bg-hover:                       @bpm-neutral-lightest;                        //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070050","type":"color"}|DE|
+@bpm-table-bg-active:                      @bpm-neutral-lighter;                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070060","type":"color"}|DE|
+@bpm-table-bg-select:                      #7cc7ff;                                      //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABLE","order":"070070","type":"color"}|DE|
+@bpm-table-border-color:                   @bpm-neutral-dark;                            //|EEM|
+
+
+/* Pagination - used by Table coach view  */
+@bpm-pagination-color:                     @bpm-text-color;
+@bpm-pagination-bg:                        #fff;
+@bpm-pagination-border:                    @bpm-neutral-lighter;
+@bpm-pagination-hover-bg:                  @bpm-neutral-lightest;
+@bpm-pagination-hover-color:               @bpm-link-hover-color;
+@bpm-pagination-active-bg:                 @bpm-color-primary;
+@bpm-pagination-active-color:              #fff;
+@bpm-pagination-active-border:             @bpm-color-primary;
+
+/* Tabs */
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080010","type":"text"}|DE|
+@bpm-nav-link-padding:                     10px 15px;                                    //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080020","type":"color"}|DE|
+@bpm-nav-tabs-border-color:                @bpm-neutral-dark;                            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080030","type":"color"}|DE|
+@bpm-tabs-primary-color:                   #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080040","type":"color"}|DE|
+@bpm-tabs-primary-bg:                      @bpm-color-primary;                           //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080050","type":"color"}|DE|
+@bpm-tabs-primary-border:                  darken( @bpm-tabs-primary-bg, 5%);            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080060","type":"color"}|DE|
+@bpm-tabs-alternate-color:                 @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080070","type":"color"}|DE|
+@bpm-tabs-alternate-bg:                    #fff;                                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080080","type":"color"}|DE|
+@bpm-tabs-alternate-border:                @bpm-neutral-lighter;                         //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080090","type":"color"}|DE|
+@bpm-tabs-success-color:                   @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080100","type":"color"}|DE|
+@bpm-tabs-success-bg:                      lighten( @bpm-color-success, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080110","type":"color"}|DE|
+@bpm-tabs-success-border:                  darken( @bpm-tabs-success-bg, 5%);            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080120","type":"color"}|DE|
+@bpm-tabs-info-color:                      @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080130","type":"color"}|DE|
+@bpm-tabs-info-bg:                         lighten( @bpm-color-info, 5%);                //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080140","type":"color"}|DE|
+@bpm-tabs-info-border:                     darken( @bpm-tabs-info-bg, 5%);               //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080150","type":"color"}|DE|
+@bpm-tabs-warning-color:                   @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080160","type":"color"}|DE|
+@bpm-tabs-warning-bg:                      lighten( @bpm-color-warning, 5%);             //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080170","type":"color"}|DE|
+@bpm-tabs-warning-border:                  darken( @bpm-tabs-warning-bg, 5%);            //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080180","type":"color"}|DE|
+@bpm-tabs-alert-color:                     @bpm-text-color;                              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080190","type":"color"}|DE|
+@bpm-tabs-alert-bg:                        darken( @bpm-color-alert-light, 5%);          //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080200","type":"color"}|DE|
+@bpm-tabs-alert-border:                    darken( @bpm-tabs-alert-bg, 5%);              //|EEM|
+                                                                                         //|EM|{"group":"PREVIEW_GROUP_TABS","order":"080210","type":"text"}|DE|
+@bpm-tabs-border-radius:                   @bpm-border-radius-base;                      //|EEM|
+
+/* Title Bar */
+@bpm-portal-titlebar-bg:                   @bpm-color-primary;
+@bpm-portal-titlebar-font-family:          @bpm-headings-font-family;
+@bpm-portal-titlebar-font-weight:          @bpm-headings-font-weight;
+@bpm-portal-titlebar-font-size:            24px;
+@bpm-portal-titlebar-color:                #ffffff;
+@bpm-portal-titlebar-padding-vertical:     6px;
+@bpm-portal-titlebar-padding-horizontal:   5px;
+
+/* Sidebars */
+@bpm-portal-sidebar-bg:                    @bpm-neutral-darkest;
+@bpm-portal-sidebar-color:                 #ffffff;
+@bpm-portal-sidebar-padding:               0px;
+@bpm-portal-sidebar-font-family:           @bpm-font-family-base;
+@bpm-portal-sidebar-font-weight:           normal;
+@bpm-portal-sidebar-font-size:             1.4em;
+@bpm-portal-sidebar-link-color:            #ffffff;
+@bpm-portal-sidebar-link-hover-color:      darken( @bpm-portal-sidebar-link-color, 15%);
+@bpm-portal-sidebar-link-hover-decoration: @bpm-link-hover-decoration;
+@bpm-portal-sidebar-heading-color:         @bpm-portal-sidebar-color;
+@bpm-portal-sidebar-heading-weight:        normal;
+@bpm-portal-sidebar-heading-size:          1em;
+@bpm-portal-sidebar-separator:             @bpm-neutral-lighter;
+@bpm-portal-sidebar-level1-bg:             @bpm-neutral-dark;
+@bpm-portal-sidebar-level1-font-weight:    normal;
+@bpm-portal-sidebar-level1-font-size:      1.2em;
+@bpm-portal-sidebar-level1-padding:        8px;
+@bpm-portal-sidebar-level2-bg:             @bpm-neutral;
+@bpm-portal-sidebar-level2-font-weight:    normal;
+@bpm-portal-sidebar-level2-font-size:      1em;
+@bpm-portal-sidebar-level2-padding:        15px 25px 15px 15px;
+@bpm-portal-sidebar-level3-bg:             #ffffff;
+@bpm-portal-sidebar-level3-font-weight:    normal;
+@bpm-portal-sidebar-level3-font-size:      @bpm-font-size-base;
+@bpm-portal-sidebar-level3-padding:        0px;
+@bpm-portal-sidebar-content-bg:            @bpm-neutral-lightest;
+@bpm-portal-sidebar-content-padding:       10px;
+@bpm-portal-badge-bg:                      @bpm-neutral-light;
+@bpm-portal-badge-color:                   #ffffff;
+@bpm-portal-badge-link-hover-color:        #ffffff;
+@bpm-portal-badge-font-weight:             bold;
+@bpm-portal-badge-border-radius:           10px;
+
+/* Dialogs */
+@bpm-modal-inner-padding:                  15px;
+@bpm-modal-title-padding:                  15px;
+@bpm-modal-content-bg:                     #ffffff;
+@bpm-modal-content-border-color:           @bpm-neutral-lightest;
+@bpm-modal-backdrop-bg:                    @bpm-neutral-darker;
+@bpm-modal-backdrop-opacity:               0.95;
+@bpm-modal-header-border-color:            @bpm-neutral-lightest;
+@bpm-modal-footer-border-color:            @bpm-neutral-lightest;
+
+/* Task List */
+@bpm-color-priority-5:                     @bpm-color-alert-light;
+@bpm-color-priority-4:                     #ffd4a0;
+@bpm-color-priority-3:                     #fde876;
+@bpm-color-priority-2:                     #c8f08f;
+@bpm-color-priority-1:                     #c0e6ff;
+@bpm-color-ontrack:                        #d9ede5;
+@bpm-color-atrisk:                         #fef4dc;
+@bpm-color-overdue:                        #f9dcdf;
+@bpm-tasklist-padding:                     8px;
+@bpm-tasklist-bg:                          transparent;
+@bpm-tasklist-details-bg:                  #f5f9f9;
+@bpm-tasklist-border-color:                @bpm-neutral-lighter;
+
+/********************************************************************************************
+ ** Bootstrap mapping -- uncomment the below section to use Bootstrap CSS classes directly **
+ ********************************************************************************************/
+ 
+/* MAP - start
+@gray-darker:                              @bpm-neutral-darkest;
+@gray-dark:                                @bpm-neutral-darker;
+@gray:                                     @bpm-neutral-dark;
+@gray-light:                               @bpm-neutral-lighter;
+@gray-lighter:                             @bpm-neutral-lightest;
+@brand-primary:                            @bpm-color-primary;
+@brand-info:                               @bpm-color-info;
+@brand-success:                            @bpm-color-success;
+@brand-warning:                            @bpm-color-warning;
+@brand-danger:                             @bpm-color-alert;
+@body-bg:                                  @bpm-body-bg;
+@text-color:                               @bpm-text-color;
+@link-color:                               @bpm-link-color;
+@link-hover-color:                         @bpm-link-hover-color;
+@link-hover-decoration:                    @bpm-link-hover-decoration;
+@font-family-sans-serif:                   @bpm-font-family-sans-serif;
+@font-family-serif:                        @bpm-font-family-serif;
+@font-family-monospace:                    @bpm-font-family-monospace;
+@font-family-base:                         @bpm-font-family-base;
+@font-size-base:                           @bpm-font-size-base;
+@font-size-large:                          @bpm-font-size-large;
+@font-size-small:                          @bpm-font-size-small;
+@padding-base-vertical:                    @bpm-padding-base-vertical;
+@padding-base-horizontal:                  @bpm-padding-base-horizontal;
+@padding-large-vertical:                   @bpm-padding-large-vertical;
+@padding-large-horizontal:                 @bpm-padding-large-horizontal;
+@padding-small-vertical:                   @bpm-padding-small-vertical;
+@padding-small-horizontal:                 @bpm-padding-small-horizontal;
+@border-radius-base:                       @bpm-border-radius-base;
+@border-radius-large:                      @bpm-border-radius-large;
+@border-radius-small:                      @bpm-border-radius-small;
+@component-active-color:                   @bpm-active-color;
+@component-active-bg:                      @bpm-active-bg;
+@list-group-bg:                            @bpm-list-group-bg;
+@list-group-border:                        @bpm-list-group-border;
+@btn-primary-color:                        @bpm-btn-primary-color;
+@btn-primary-bg:                           @bpm-btn-primary-bg;
+@btn-primary-border:                       @bpm-btn-primary-border;
+@btn-default-color:                        @bpm-btn-alternate-color;
+@btn-default-bg:                           @bpm-btn-alternate-bg;
+@btn-default-border:                       @bpm-btn-alternate-border;
+@btn-success-color:                        @bpm-btn-success-color;
+@btn-success-bg:                           @bpm-btn-success-bg;
+@btn-success-border:                       @bpm-btn-success-border;
+@btn-info-color:                           @bpm-btn-info-color;
+@btn-info-bg:                              @bpm-btn-info-bg;
+@btn-info-border:                          @bpm-btn-info-border;
+@btn-warning-color:                        @bpm-btn-warning-color;
+@btn-warning-bg:                           @bpm-btn-warning-bg;
+@btn-warning-border:                       @bpm-btn-warning-border;
+@btn-danger-color:                         @bpm-btn-alert-color;
+@btn-danger-bg:                            @bpm-btn-alert-bg;
+@btn-danger-border:                        @bpm-btn-alert-border;
+@btn-font-weight:                          @bpm-btn-font-weight;
+@font-size-h1:                             @bpm-font-size-h1;
+@font-size-h2:                             @bpm-font-size-h2;
+@font-size-h3:                             @bpm-font-size-h3;
+@font-size-h4:                             @bpm-font-size-h4;
+@font-size-h5:                             @bpm-font-size-h5;
+@font-size-h6:                             @bpm-font-size-h6;
+@line-height-base:                         @bpm-line-height-base;
+@line-height-small:                        @bpm-line-height-small;
+@line-height-large:                        @bpm-line-height-large;
+@line-height-computed:                     @bpm-line-height-computed;
+@headings-font-family:                     @bpm-headings-font-family;
+@headings-font-weight:                     @bpm-headings-font-weight;
+@headings-line-height:                     @bpm-headings-line-height;
+@headings-color:                           @bpm-headings-color;
+@input-bg:                                 @bpm-input-bg;
+@input-bg-disabled:                        @bpm-input-bg-disabled;
+@input-color:                              @bpm-input-color;
+@input-border:                             @bpm-input-border;
+@input-border-radius:                      @bpm-input-border-radius-base;
+@input-border-radius-large:                @bpm-input-border-radius-large;
+@input-border-radius-small:                @bpm-input-border-radius-small;
+@input-border-focus:                       @bpm-input-border-focus;
+@input-color-placeholder:                  @bpm-input-color-placeholder;
+@state-danger-text:                        @bpm-state-alert-text;
+@state-danger-bg:                          @bpm-state-alert-bg;
+@state-danger-border:                      @bpm-state-alert-border;
+@table-cell-padding:                       @bpm-table-cell-padding;
+@table-bg:                                 @bpm-table-bg;
+@table-bg-accent:                          @bpm-table-bg-accent;
+@table-bg-hover:                           @bpm-table-bg-hover;
+@table-bg-active:                          @bpm-table-bg-active;
+@table-border-color:                       @bpm-table-border-color;
+@pagination-color:                         @bpm-pagination-color;
+@pagination-bg:                            @bpm-pagination-bg;
+@pagination-border:                        @bpm-pagination-border;
+@pagination-hover-bg:                      @bpm-pagination-hover-bg;
+@pagination-hover-color:                   @bpm-pagination-hover-color;
+@pagination-active-bg:                     @bpm-pagination-active-bg;
+@pagination-active-color:                  @bpm-pagination-active-color;
+@pagination-active-border:                 @bpm-pagination-active-border;
+@nav-link-padding:                         @bpm-nav-link-padding;
+@nav-tabs-border-color:                    @bpm-nav-tabs-border-color;
+
+MAP - end */
+
+        
+        
+        </themeContent>
+        <description>&lt;div&gt;&lt;i&gt;Replace this documentation text and describe your theme.&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;&lt;div&gt;In a theme, you define the variables that coach views use in their dynamic stylesheets. When a coach view is used in a coach of a human service, the runtime CSS file for the coach view is created from combining the variable values with the dynamic stylesheets.&lt;/div&gt;</description>
+        <guid>guid:26e6cdab58769654:4ee513c:15a758ad273:-7c89</guid>
+        <versionId>25a23221-cf3d-4f9d-ae7a-320a10fbffc8</versionId>
+    </uiTheme>
+</teamworks>
+

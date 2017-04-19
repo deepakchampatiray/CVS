@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <coachView id="64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789" name="Actionable Icon">
+        <lastModified>1488723022793</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+        <isTemplate>false</isTemplate>
+        <layout>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ns2:layout xmlns:ns2="http://www.ibm.com/bpm/CoachDesignerNG" xmlns:ns3="http://www.ibm.com/bpm/coachview"&gt;&lt;ns2:layoutItem xsi:type="ns2:CustomHTML" version="8550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;ns2:id&gt;930cf7ef-48e1-423a-8022-47fdf9da2a47&lt;/ns2:id&gt;&lt;ns2:layoutItemId&gt;CustomHTML1&lt;/ns2:layoutItemId&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;7f433a0c-a9f5-4ad9-86ca-3c7ad9438336&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.contentType&lt;/ns2:optionName&gt;&lt;ns2:value&gt;TEXT&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;ns2:configData&gt;&lt;ns2:id&gt;b6f386cd-e23d-4a8e-8677-028a07b8cafe&lt;/ns2:id&gt;&lt;ns2:optionName&gt;@customHTML.textContent&lt;/ns2:optionName&gt;&lt;ns2:value&gt;&amp;lt;button id="{{viewid}} $$viewDOMID$$"&amp;gt;{{bindingValue}}&amp;lt;/button&amp;gt;&lt;/ns2:value&gt;&lt;/ns2:configData&gt;&lt;/ns2:layoutItem&gt;&lt;/ns2:layout&gt;</layout>
+        <paletteIcon isNull="true" />
+        <previewImage isNull="true" />
+        <hasLabel>false</hasLabel>
+        <labelPosition>0</labelPosition>
+        <nineSliceX1Coord>0</nineSliceX1Coord>
+        <nineSliceX2Coord>0</nineSliceX2Coord>
+        <nineSliceY1Coord>0</nineSliceY1Coord>
+        <nineSliceY2Coord>0</nineSliceY2Coord>
+        <emitBoundary>false</emitBoundary>
+        <isPrototypeFunc>false</isPrototypeFunc>
+        <enableDevMode>false</enableDevMode>
+        <isMobileReady>true</isMobileReady>
+        <loadJsFunction> coachViewHelper.bootstrap(this, "responsive.coaches", "button", {Explorer: 9});&#xD;
+ &#xD;
+</loadJsFunction>
+        <unloadJsFunction isNull="true" />
+        <viewJsFunction>coachViewHelper.init();&#xD;
+&#xD;
+var iconClass = (!!this.context.binding)?(this.context.binding.get("value")):"default-icon-class";&#xD;
+this.context.binding.set("value", iconClass);&#xD;
+&#xD;
+ console.log("iconClass", iconClass);&#xD;
+ &#xD;
+//console.log(angular);&#xD;
+console.log(coachViewHelper);&#xD;
+ &#xD;
+ var elem = angular.element(this.context.element);&#xD;
+ &#xD;
+console.log(this);</viewJsFunction>
+        <changeJsFunction isNull="true" />
+        <collaborationJsFunction isNull="true" />
+        <description isNull="true" />
+        <validateJsFunction isNull="true" />
+        <previewAdvHtml isNull="true" />
+        <previewAdvJs isNull="true" />
+        <useUrlBinding>false</useUrlBinding>
+        <guid>guid:42f02a20ebe41851:7f011139:15a528d6381:-7fff</guid>
+        <versionId>ac48b58b-8263-4502-8755-b8144f0265cb</versionId>
+        <bindingType name="iconClass">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewBindingTypeId>65.7d062d8b-45df-48a2-abba-1896dcce0ae3</coachViewBindingTypeId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <isList>false</isList>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>0</seq>
+            <description isNull="true" />
+            <guid>f69d6ace-2e81-4c15-b5c4-21aea94a9cdb</guid>
+            <versionId>57556087-a72d-4cd9-af6f-0d6bf98e3fe8</versionId>
+        </bindingType>
+        <configOption name="iconColor">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.e3ec6927-495b-4e58-94b3-35cccdbd192c</coachViewConfigOptionId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>0</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>53ed793d-6dd5-47fa-8c0c-b95dccc3ba3e</guid>
+            <versionId>b02e0a3f-67ca-460a-9a13-102302391dcd</versionId>
+        </configOption>
+        <configOption name="iconSize">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.c0b71ec6-eecf-4e94-9f97-6c5cfac80d9b</coachViewConfigOptionId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>1</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>af25e5c5-8bdf-4830-b204-e5e455f20f3a</guid>
+            <versionId>a1b03501-7aad-463e-9f75-448c91467d72</versionId>
+        </configOption>
+        <configOption name="canFireBoundryEvent">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.d6e897f6-0303-4123-8db9-d81c6ed49d38</coachViewConfigOptionId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.83ff975e-8dbc-42e5-b738-fa8bc08274a2</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>2</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>ef946359-a27f-4285-b8ba-c175dbc3ff76</guid>
+            <versionId>e10f6dfe-a67d-4842-a114-30f55e878080</versionId>
+        </configOption>
+        <configOption name="previewClass">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewConfigOptionId>66.1e7cb601-77e9-49ec-ab8b-5ff3c976f286</coachViewConfigOptionId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <isList>false</isList>
+            <propertyType>OBJECT</propertyType>
+            <label isNull="true" />
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <processId isNull="true" />
+            <isAdaptive>false</isAdaptive>
+            <seq>3</seq>
+            <description isNull="true" />
+            <groupName isNull="true" />
+            <guid>464590ac-53cf-4b06-ba3b-65a75bbe774c</guid>
+            <versionId>7f1d4f5e-a24c-4f47-98d2-9a5107cccceb</versionId>
+        </configOption>
+        <amdDependency>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <coachViewAmdDepId>70.c969e320-9eb0-4e32-af4d-e4b8b3b5b314</coachViewAmdDepId>
+            <coachViewId>64.a1097c07-ea16-4dc2-82f0-1eae2bfdb789</coachViewId>
+            <moduleId>com.ibm.bpm.coach.angular/scripts/coachViewHelper</moduleId>
+            <functionArgument>coachViewHelper</functionArgument>
+            <seq>0</seq>
+            <guid>b81dbce3-e111-4668-a0ad-8527c75ec4e2</guid>
+            <versionId>29cf6874-45b8-42b2-a897-48d8928f3a41</versionId>
+        </amdDependency>
+    </coachView>
+</teamworks>
+

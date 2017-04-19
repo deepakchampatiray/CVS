@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamworks>
+    <process id="1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a" name="SampleAjax">
+        <lastModified>1487831184021</lastModified>
+        <lastModifiedBy>Deepak</lastModifiedBy>
+        <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+        <image isNull="true" />
+        <tabGroup isNull="true" />
+        <startingProcessItemId>2025.1ee90647-95a1-4b8f-9752-9ee808517041</startingProcessItemId>
+        <isRootProcess>false</isRootProcess>
+        <processType>2</processType>
+        <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+        <errorHandlerItemId isNull="true" />
+        <isLoggingVariables>false</isLoggingVariables>
+        <isTransactional>false</isTransactional>
+        <processTimingLevel isNull="true" />
+        <participantRef isNull="true" />
+        <exposedType isNull="true" />
+        <isTrackingEnabled>true</isTrackingEnabled>
+        <xmlData isNull="true" />
+        <cachingType>false</cachingType>
+        <itemLabel isNull="true" />
+        <cacheLength>43200</cacheLength>
+        <mobileReady>false</mobileReady>
+        <sboSyncEnabled>false</sboSyncEnabled>
+        <externalId isNull="true" />
+        <isSecured>false</isSecured>
+        <description isNull="true" />
+        <guid>guid:de46dc44c9507c59:684b2ab6:15a693ab5a9:-7ffe</guid>
+        <versionId>28c9dd95-eca2-4dc1-8e77-e98dba013276</versionId>
+        <dependencySummary isNull="true" />
+        <processParameter name="filteredVars">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.b728cb48-4ce2-4e64-a3f8-236155b899b8</processParameterId>
+            <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+            <parameterType>2</parameterType>
+            <isArrayOf>true</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>1</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>0e1df3c3-0a8a-4ede-a5d0-53886cb01bea</guid>
+            <versionId>cf393330-3cb3-49a7-a38a-21cf15062ba8</versionId>
+        </processParameter>
+        <processParameter name="filter">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processParameterId>2055.bfa9beec-ad16-4166-b544-13b75858639e</processParameterId>
+            <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+            <parameterType>1</parameterType>
+            <isArrayOf>false</isArrayOf>
+            <classId>ae31606f-3de3-4bd3-873d-45833be340bc/12.db884a3c-c533-44b7-bb2d-47bec8ad4022</classId>
+            <seq>2</seq>
+            <hasDefault>false</hasDefault>
+            <defaultValue isNull="true" />
+            <isLocked>false</isLocked>
+            <description isNull="true" />
+            <guid>c61836fa-5334-487b-b256-8fa48630c634</guid>
+            <versionId>ab669c14-7df3-4066-80f9-e75580740a7d</versionId>
+        </processParameter>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.7a39bdb4-9513-4d69-ad44-b299d678616b</processItemId>
+            <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+            <name>End</name>
+            <tWComponentName>ExitPoint</tWComponentName>
+            <tWComponentId>3008.04a962f4-8aba-4f6a-acb7-6a3e1ef42244</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>true</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:de46dc44c9507c59:684b2ab6:15a693ab5a9:-7ffd</guid>
+            <versionId>85439016-4343-41a9-9b2b-c365cfc8819e</versionId>
+            <layoutData x="298" y="99">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <exitPointId>3008.04a962f4-8aba-4f6a-acb7-6a3e1ef42244</exitPointId>
+                <haltProcess>false</haltProcess>
+                <guid>460752d8-ea52-4de5-80ea-34442d541167</guid>
+                <versionId>3eaa5899-990f-41be-81f3-c4cc1a764d3c</versionId>
+            </TWComponent>
+        </item>
+        <item>
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processItemId>2025.1ee90647-95a1-4b8f-9752-9ee808517041</processItemId>
+            <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+            <name>Populate Var</name>
+            <tWComponentName>Script</tWComponentName>
+            <tWComponentId>3011.4834e6b1-ccdc-47ea-b385-579e26495bdf</tWComponentId>
+            <isLogEnabled>false</isLogEnabled>
+            <isTraceEnabled>false</isTraceEnabled>
+            <traceCategory isNull="true" />
+            <traceLevel isNull="true" />
+            <traceMessage isNull="true" />
+            <traceSymbolTable isNull="true" />
+            <isExecutionContextTraced>false</isExecutionContextTraced>
+            <saveExecutionContext>false</saveExecutionContext>
+            <documentation isNull="true" />
+            <isErrorHandlerEnabled>false</isErrorHandlerEnabled>
+            <errorHandlerItemId isNull="true" />
+            <guid>guid:de46dc44c9507c59:684b2ab6:15a693ab5a9:-7ffb</guid>
+            <versionId>a5979db6-b980-4342-a512-dfd5a5cb4ff7</versionId>
+            <layoutData x="143" y="84">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+            <TWComponent>
+                <lastModified isNull="true" />
+                <lastModifiedBy isNull="true" />
+                <scriptId>3011.4834e6b1-ccdc-47ea-b385-579e26495bdf</scriptId>
+                <scriptTypeId>2</scriptTypeId>
+                <isActive>true</isActive>
+                <script>tw.local.filteredVars = new tw.object.listOf.String();
+tw.local.filteredVars[0] = 'One';
+tw.local.filteredVars[1] = 'Two';
+tw.local.filteredVars[2] = 'Three';
+tw.local.filteredVars[3] = 'Four';</script>
+                <isRule>false</isRule>
+                <guid>ad044f13-952d-4e49-b3bd-520b98b4fcd2</guid>
+                <versionId>525c834b-877b-49c3-8eea-372ba599d56c</versionId>
+            </TWComponent>
+        </item>
+        <startingProcessItemId>2025.1ee90647-95a1-4b8f-9752-9ee808517041</startingProcessItemId>
+        <errorHandlerItemId isNull="true" />
+        <layoutData noConversion="true">
+            <errorLink>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </errorLink>
+        </layoutData>
+        <startPoint>
+            <layoutData x="20" y="100">
+                <errorLink>
+                    <controlPoints />
+                    <showEndState>false</showEndState>
+                    <showName>false</showName>
+                </errorLink>
+            </layoutData>
+        </startPoint>
+        <startLink>
+            <fromPort locationId="rightCenter" portType="1" />
+            <toPort locationId="leftCenter" portType="2" />
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+        </startLink>
+        <link name="Untitled">
+            <lastModified isNull="true" />
+            <lastModifiedBy isNull="true" />
+            <processLinkId>2027.11e8c94b-6e5a-4d16-aa56-0df130171da4</processLinkId>
+            <processId>1.dcd9a7e9-cd0a-49a4-9eb5-35b84366747a</processId>
+            <description isNull="true" />
+            <fromProcessItemId>2025.1ee90647-95a1-4b8f-9752-9ee808517041</fromProcessItemId>
+            <endStateId>Out</endStateId>
+            <toProcessItemId>2025.7a39bdb4-9513-4d69-ad44-b299d678616b</toProcessItemId>
+            <guid>b4c04e95-f87a-4626-a82c-c515c76dc9be</guid>
+            <versionId>a1413bfc-6a28-49b3-b63c-e8d6d04312e6</versionId>
+            <layoutData>
+                <controlPoints />
+                <showEndState>false</showEndState>
+                <showName>false</showName>
+            </layoutData>
+            <fromItemPort locationId="rightCenter" portType="1" />
+            <toItemPort locationId="leftCenter" portType="2" />
+            <fromProcessItemId>2025.1ee90647-95a1-4b8f-9752-9ee808517041</fromProcessItemId>
+            <toProcessItemId>2025.7a39bdb4-9513-4d69-ad44-b299d678616b</toProcessItemId>
+        </link>
+    </process>
+</teamworks>
+
